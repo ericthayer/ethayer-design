@@ -10,8 +10,6 @@ const PRECACHE_URLS = [
   'index.html',
   '/css/styles.min.css',
   '/js/min/script.min.js',
-  '/images/content-img/1x1/img-1x1-avatar-2.jpg',
-  '/images/content-img/bg/bg-vibrant.svg',
   '/css/fonts/Knockout-HTF29-JuniorLiteweight-subset.woff',
   '/css/fonts/Knockout-HTF29-JuniorLiteweight-subset.woff2',
   '/css/fonts/RobotoCondensed-Regular-subset.woff',
