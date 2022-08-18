@@ -161,20 +161,11 @@
 
 // adds border for lighter examples
 .media-light {
+  box-shadow: 0 0 0 1px #E5E5E5;
+
   .media-caption {
     right: 1px;
     bottom: 1px;
-  }
-  img,
-  iframe {
-    border: 1px solid #E5E5E5;
-  }
-  &:hover,
-  &:focus {
-    img,
-    iframe {
-      border: 1px solid transparent;
-    }
   }
 }
 
@@ -194,8 +185,10 @@
 }
 
 .time-stamp {
-  @include sr-only; //background-color: rgba(darkRed, .85);
-  padding: 0; //top: calc(100% - 4.25em);
+  @include sr-only; 
+  //background-color: rgba(darkRed, .85);
+  padding: 0; 
+  //top: calc(100% - 4.25em);
   //transform: translateX(-101%);
 }
 
@@ -224,9 +217,10 @@
 
   img {
     animation: filter-hue-animation .5s ease forwards;
-    transform: scale(1.1);
-    transform-origin: center;
+    transform: scale(1.05);
+    transform-origin: top;
   }
+
   .time-stamp,
   .media-caption {
     transform: none;
@@ -245,6 +239,18 @@
   .project-desc {
     display: block;
     opacity: 1;
+  }
+}
+
+
+.media-item a.portfolio:hover,
+.media-item a.portfolio:focus {
+
+  cursor: all-scroll;
+
+  img {
+    animation: none;
+    transform: none;
   }
 }
 
