@@ -1,0 +1,75 @@
+// .home {
+//   @include bg-green;
+//   .site-header, .banner {
+//     @include bg-white;
+//   }
+// }
+
+// .portfolio {
+//   @include bg-red-pink;
+//   .site-header, .banner {
+//     @include bg-white;
+//   }
+// }
+
+.banner {
+  //@include banner;
+}
+
+.banner-headline {
+  @include fade-in;
+  text-shadow: .125rem .125rem .05rem rgba(black, .25);
+
+  .container {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1;
+
+    abbr[title] {
+      text-decoration: none;
+    }
+  }
+
+  .sub-header {
+    line-height: 2.125rem;
+    // &.header-lg {
+    //   line-height: 2.5rem;
+    // }
+    a {
+      background-image: none;
+      background-color: rgba(black, .25);
+      line-height: 2.5rem;
+      padding-right: .25em;
+      padding-left: .25em;
+      text-decoration: none;
+      text-shadow: none;
+    }
+    .full-screen & {
+      max-width: 32em;
+    }
+  }
+
+  @media (min-width: $break-540) {
+    .fonts-loaded & {
+      h1 {
+        font-size: calc(1vw + 3.875em);
+      }
+    }
+  }
+
+  @media (min-width: 44em) {
+    h1 {
+      max-width: calc(1vw + 10em);
+    }
+    .fonts-loaded & {
+      h1 {
+        font-size: calc(1vw + 4.25em);
+        max-width: calc(1vw + 8em);
+      }
+    }
+  }
+}

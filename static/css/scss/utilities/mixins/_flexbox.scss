@@ -1,0 +1,348 @@
+//**  Flex Modifiers  **//
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin flex-wrap {
+  flex-wrap: wrap;
+}
+
+@mixin flex-auto {
+  flex: 0 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+@mixin flex-reset {
+  flex: 0 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+@mixin flex-basis-auto {
+  flex-basis: auto;
+}
+
+@mixin flex-0 {
+  flex: 0;
+}
+
+@mixin flex-100 {
+  flex: 1 0 100%;
+}
+
+@mixin flex-1 {
+  flex: 1;
+}
+
+@mixin flex-2 {
+  flex: 2;
+}
+
+@mixin flex-3 {
+  flex: 3;
+}
+
+@mixin flex-4 {
+  flex: 4;
+}
+
+@mixin flex-basis-auto {
+  flex-basis: auto;
+}
+
+@mixin flex-grow-0 {
+  flex-grow: 0;
+}
+
+@mixin flex-grow-1 {
+  flex-grow: 1;
+}
+
+@mixin flex-grow-2 {
+  flex-grow: 2;
+}
+
+@mixin flex-grow-3 {
+  flex-grow: 3;
+}
+
+@mixin flex-grow-4 {
+  flex-grow: 4;
+}
+
+@mixin flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+// Flex Direction
+
+@mixin flex-d-col {
+  flex-direction: column;
+}
+
+@mixin flex-d-col-rev {
+  flex-direction: column-reverse;
+}
+
+@mixin flex-d-row {
+  flex-direction: row;
+}
+
+@mixin flex-d-row-rev {
+  flex-direction: row-reverse
+}
+
+// Align Items
+
+@mixin ai-start {
+  align-items: flex-start;
+}
+
+@mixin ai-end {
+  align-items: flex-end;
+}
+
+@mixin ai-center {
+  align-items: center;
+}
+
+@mixin ai-stretch {
+  align-items: stretch;
+}
+
+// Align Self
+
+@mixin as-start {
+  align-self: flex-start;
+}
+
+@mixin as-end {
+  align-self: flex-end;
+}
+
+@mixin as-center {
+  align-self: center;
+}
+
+@mixin as-stretch {
+  align-self: stretch;
+}
+
+@mixin as-space-around {
+  align-self: space-around;
+}
+
+@mixin as-space-between {
+  align-self: space-between;
+}
+
+// Flex Justify Content
+
+@mixin jc-start {
+  justify-content: flex-start;
+}
+
+@mixin jc-end {
+  justify-content: flex-end;
+}
+
+@mixin jc-center {
+  justify-content: center;
+}
+
+@mixin jc-stretch {
+  justify-content: stretch;
+}
+
+@mixin jc-around {
+  justify-content: space-around;
+}
+
+@mixin jc-between {
+  justify-content: space-between;
+}
+
+@mixin jc-evenly {
+  justify-content: space-evenly;
+}
+
+// Flex Rows
+
+@mixin flex-between {
+  @include flex;
+  @include jc-between;
+}
+
+@mixin flex-across-center {
+  @include flex;
+  @include ai-center;
+}
+
+@mixin flex-across-end {
+  @include flex;
+  @include ai-end;
+}
+
+// Flex Columns
+
+@mixin flex-column {
+  @include flex;
+  @include flex-d-col;
+}
+
+@mixin flex-column-center {
+  @include flex;
+  @include flex-d-col;
+  @include ai-center;
+}
+
+@mixin flex-column-end {
+  @include flex;
+  @include flex-d-col;
+  @include ai-end;
+}
+
+@mixin flex-between {
+  @include flex;
+  @include ai-center;
+  @include jc-between;
+}
+
+@mixin flex-around {
+  @include flex;
+  @include ai-center;
+  @include jc-around;
+}
+
+@mixin flex-evenly {
+  @include flex;
+  @include ai-center;
+  @include jc-evenly;
+}
+
+// Flex Alignment
+
+@mixin flex-align-center {
+  @include flex;
+  @include ai-center;
+  @include jc-center;
+}
+
+@mixin flex-align-bottom-right {
+  @include flex;
+  @include ai-end;
+  @include jc-end;
+}
+
+@mixin flex-align-bottom-left {
+  @include flex;
+  @include ai-end;
+}
+
+@mixin flex-align-top-right {
+  @include flex;
+  @include ai-end;
+}
+
+// Flex Order
+
+@mixin flex-lead {
+  flex: 1 0 100%;
+  width: 100%;
+}
+
+@mixin flex-sm {
+  // > 640
+  @media (min-width: $break-640) {
+    flex-grow: 0;
+    width: auto;
+  }
+}
+
+// Flex Layout
+@mixin flex-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+
+  > * {
+    flex: 1;
+    margin-bottom: 1.5em;
+
+    &:first-child {
+      flex-basis: 100vw;
+    }
+  }
+  .media-item {
+    margin-bottom: 0;
+  }
+  // > 640
+  @media (min-width: $break-540) {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+
+    > * {
+      float: left;
+      flex-basis: 18em;
+      flex-grow: 1;
+      min-height: 0;
+      min-width: 0;
+      // padding-top: 1em;
+      // padding-right: 1em;
+      // padding-bottom: 1em;
+      // padding-left: 1em;
+      &.flex-sm {
+        flex-basis: auto;
+      }
+    }
+  }
+  @media (min-width: 1050px) {
+    > * {
+      &.spotlight {
+        flex-basis: 45%;
+      }
+    }
+  }
+}
+
+// Media Layout
+@mixin l-media-grid {
+  // < 300
+  @media (max-width: 18.75em) {
+    figcaption {
+      @include sr-only;
+    }
+  }
+  // < 480px
+  @media (max-width: 30em) {
+    > * {
+      padding-bottom: 2.75rem;
+    }
+  }
+  // > 640
+  @media (min-width: 40em) {
+    &.col-2 > * {
+      flex-basis: 24em;
+    }
+  }
+}
+
+@mixin flex-layout-grid {
+  @include flex-layout;
+  > * {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}
+
+@mixin flex-3-col {
+  @media (min-width: $break-900) {
+    @include flex-layout-grid;
+    > * {
+      flex-basis: 11em;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<div class="main-menu">   
+  {{ partial "1_elements/site-title.html" . }}  
+  <nav class="nav-main" role="navigation">
+    <!-- {{ partial "2_components/menus/toggle-button.html" . }} -->
+    <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li{{if $currentPage.IsMenuCurrent "main" . }} class="active" {{end}}>
+        <a href="{{ .URL}}">
+          <span>{{ .Name }} {{if $currentPage.IsMenuCurrent "main" . }}<span class="sr-only">current page</span>{{end}}</span>              
+        </a>
+      </li>
+      {{end}}
+    </ul>
+  </nav>
+</div>
