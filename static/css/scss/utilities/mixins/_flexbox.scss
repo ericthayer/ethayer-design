@@ -298,6 +298,8 @@
   }
   @media (min-width: 1050px) {
     > * {
+      flex-basis: 15em;
+
       &.spotlight {
         flex-basis: 45%;
       }
