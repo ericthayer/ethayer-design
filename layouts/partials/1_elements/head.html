@@ -26,6 +26,6 @@
   {{ $styleCSS := $styleSCSS | resources.ToCSS (dict "targetPath" "styles.css" "enableSourceMap" false) }}
   {{ $styleAutoprefixed := $styleCSS | resources.PostCSS }}
   {{ $styleMinified := $styleAutoprefixed | resources.Minify }}
-  {{ $style := resources.Get "css/styles.scss" | toCSS | postCSS | minify }}
+  {{ $style := resources.Get "css/styles.scss" | toCSS | postCSS }}
   <link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'">
 </head>
