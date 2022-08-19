@@ -83,6 +83,24 @@
 
 }
 
+@mixin bg-feature { 
+  --bg-feature-color-pink: #a5426d;
+  --bg-feature-color-green: #1c4850;
+  background-color: var(--bg-feature-color-pink);
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 6rem 2rem rgba(#57092b, .65);
+}
+
+@mixin bg-blend-mode-exclusion {
+  background-blend-mode: exclusion;
+}
+
+@mixin bg-blend-mode-difference {
+  background-blend-mode: difference;
+}
+
 @mixin slug-img-bg {
   background: url("../images/UI/ui-icons/icon-photo.svg") center no-repeat #DDD;
   background-size: 20%;

@@ -2,15 +2,12 @@
 
 .site-header {
   @include flex;
+  @include flex-d-col;
   @include relative;
   @include w-100;
-
-  &.tall {
-    @include flex-d-col;
-    height: auto;
-  }
   
   &.small {
+    @include flex-d-row;
     height: 70px;
   }
   

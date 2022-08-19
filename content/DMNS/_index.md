@@ -1,11 +1,11 @@
 +++
 type = "page"
-page = "case-studies/dmns/"
+page = "/dmns"
 title = "Denver Museum of Nature and Science"
-headline = "Denver Museum of Nature and Science"
+headline = "Denver Museum of Nature & Science"
 subheader = "Front-end development and style guide for the Denver Museum of Nature and Science"
 
-projectPreviewImage = "/images/content-img/16x9/img-16x9-DMNS.webp"
+projectPreviewImage = "images/content-img/16x9/img-16x9-DMNS.webp"
 projectName = "Denver Museum of Nature and Science"
 projectDate = "12/2018"
 projectURL = "//dmns.netlify.app/"
@@ -16,8 +16,9 @@ projectResponsibilities = "front-end developer"
 projectTechnologies = "hugo"
 projectLibsFrameworks = "custom"
 
-headerStyle = "tall bg-dark gradient-blue-purple-270"
-bannerStyle = "bg-dark gradient-blue-purple-270"
+headerStyle = "bg-feature bg-blend-mode-exclusion"
+headerBGImage = "/images/content-img/16x9/img-16x9-DMNS.webp"
+bannerStyle = ""
 +++
 
 <!-- DMNS -->

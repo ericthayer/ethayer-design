@@ -1,6 +1,6 @@
 +++
 type = "page"
-page = "/prototypes/"
+page = "/prototypes"
 title = "UI/UX Prototypes"
 description = "Prototypes created using various types of UI design tech."
 headline = "UI/UX Prototypes"
@@ -17,8 +17,9 @@ projectResponsibilities = "UI/UX designer"
 projectTechnologies = "Adobe XD, CodePen, Sketch, HTML/CSS"
 projectLibsFrameworks = "n/a"
 
-headerStyle = "tall bg-dark gradient-blue-purple-270"
-bannerStyle = "bg-dark gradient-blue-purple-270"
+headerStyle = "bg-feature bg-blend-mode-exclusion"
+headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
+bannerStyle = ""
 +++
 
 <section class="pt-2">

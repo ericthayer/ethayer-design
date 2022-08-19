@@ -183,6 +183,10 @@
   background-color: $blue-bold;
 }
 
+@mixin bg-blue-dark {
+  background-color: $blue-dark;
+}
+
 @mixin bg-green {
   background-color: $green;
 }
