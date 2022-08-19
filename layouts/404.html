@@ -1,9 +1,6 @@
-{{ partial "4_templates/header.html" . }}
-
-<!-- Header -->
-<header id="site-header" class="site-header full-screen bg-red-purple" role="banner">
-    {{ partial "2_components/menus/main-menu.html" . }}
-    {{ partial "2_components/headlines/404-headline.html" . }}
+{{ partial "1_elements/head.html" . }}
+<header id="site-header" class="site-header {{ .Params.headerStyle }}" role="banner">
+  {{ partial "2_components/menus/demo-menu.html" . }}
+  {{ partial "2_components/headlines/404-headline.html" . }}
+  {{ partial "4_templates/footer.html" . }}
 </header>
-
-{{ partial "scripts/main-js.html" . }}

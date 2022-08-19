@@ -8,6 +8,7 @@ assetDir = "static"
 [params]
   author = "Eric Thayer"
   description = "I'm a freelance consultant with a passion for building design systems and inclusive components with other like-minded people."
+  versionTag = "5.2.0"
 
 ## [[menu.main]]
   ## name = "About"

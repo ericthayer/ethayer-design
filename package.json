@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "ethayer.design",
-  "version": "4.0.0",
+  "version": "5.2.0",
   "description": "The front-end development pipeline for https://ethayer.design/",
   "author": "Eric Thayer",
   "private": false,

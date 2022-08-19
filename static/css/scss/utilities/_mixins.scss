@@ -569,7 +569,13 @@
 }
 
 @mixin full-screen {
+  flex-direction: column;
   min-height: 100vh;
+  
+  .main-menu {
+    flex-grow: 0;
+  }
+
   .banner {
     display: flex;
     flex-direction: column;

@@ -1,11 +1,14 @@
 +++
 type = "page"
-page = "hire-me/hire-me.html"
-title = "What I love"
-description = "Eric Thayer is a Web Designer and Front-end Developer from Denver Colorado"
+page = "/hire-me/"
+title = "Hire Me"
+description = "At my dream job, my team and I would…"
+headline = "Hire Me"
+subheader = "I'm want to be part of a product design or development team that cares deeply about communication, accessibility and performance based UI/UX solutions."
+headerStyle = "small bg-dark gradient-blue-purple-270"
 +++
 
-<div class="container text-block mw-48em p2">
+<div class="container text-block mw-48em p-2">
 
    <h2 class="h4 mb-3 mr-ml-a mw-25em text-center lg-pr-pl-2">At my dream job, my team and I would…</h2>
 
