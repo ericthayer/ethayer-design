@@ -24,6 +24,10 @@
   flex-basis: auto;
 }
 
+@mixin flex-basis-100 {
+  flex-basis: 100%;
+}
+
 @mixin flex-0 {
   flex: 0;
 }
@@ -46,10 +50,6 @@
 
 @mixin flex-4 {
   flex: 4;
-}
-
-@mixin flex-basis-auto {
-  flex-basis: auto;
 }
 
 @mixin flex-grow-0 {

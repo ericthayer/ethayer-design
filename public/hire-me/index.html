@@ -299,7 +299,7 @@
 
 
 
-  <header id="site-header" class="site-header small bg-dark gradient-blue-purple-270" style="background-image: url('');" role="banner">
+  <header id="site-header" class="site-header bg-dark gradient-blue-purple-270" style="background-image: url('/images/content-img/16x9/img-16x9-SubList-XD.webp');" role="banner">
 
     <div class="main-menu">   
   <a class="site-title" href="../">
@@ -414,10 +414,10 @@
 <section class="contact-banner container">
   <h2 class="h3 mb-sm hidden">Contact Me</h2>
   
-  <div class="flex flex-wrap ai-center jc-between">
+  <div class="flex flex-wrap ai-center jc-between gap-1">
     
     
-<div class="contact-nav mb-sm">
+<div class="contact-nav">
   <nav class="nav-icons" role="navigation">
     <ul aria-label="contact-nav">
       <li class="has-tooltip">
@@ -464,7 +464,7 @@
   </nav>
 </div>
 
-    <p class="copyrights mb-sm">&copy; Eric Thayer <a href="//github.com/ericthayer/ethayer/">
+    <p class="copyrights mb-0">&copy; Eric Thayer <a href="//github.com/ericthayer/ethayer/">
   <span class="sr-only">release version</span>
   <span aria-hidden="true">v</span>5.3.0</a> -
   
@@ -481,10 +481,24 @@
   
 
 
+
  
 
 
-<script src='/js/min/script.min.js' defer></script>
+<script>
+  if ('serviceWorker' in navigator) {
+
+    navigator.serviceWorker.register('\/sw.js').then(function() {
+      
+      console.log('ServiceWorker registration successful');
+    }).catch(function(err) {
+      
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+</script>
+
+<script src="/js/min/script.min.js" defer></script>
 
 <script defer>
   var html = document.documentElement;

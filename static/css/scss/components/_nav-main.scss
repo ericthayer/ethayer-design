@@ -174,15 +174,9 @@
 }
 
 .main-menu {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-
-  // > 640
-  @media (min-width: $break-640) {
-    min-height: 0;
-    margin-bottom: 0;
-  }
+  @include flex;
+  @include jc-between;
+  flex-basis: 100%;
 }
 
 .home-link {

@@ -3,21 +3,20 @@
 .site-header {
   @include flex;
   @include flex-d-col;
+  @include flex-grow-1;
   @include relative;
   @include w-100;
   
-  &.small {
-    @include flex-d-row;
-    height: 70px;
-  }
-  
-  @media (max-height: 46em) and (max-width: $break-540) {
-    
-    &.full-screen .banner {
-      @include mt-a;
+  // &.small {
+  //   @include flex-d-row;
+  //   height: 70px;
+  // }
+
+  &.tall {
+    height: calc(100vh - 10rem);
+
+    .main-menu {
+      flex-basis: auto;
     }
-  }
-  
-  @media (min-width: $break-900) {
   }
 }

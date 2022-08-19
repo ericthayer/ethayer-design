@@ -1,5 +1,8 @@
 <!-- Main -->
 <main id="main" class="main-content" role="main">
   {{ .Content }}
+  {{ range .Pages }}
+    {{ .title }}
+  {{end}}
 </main>
 {{ partial "4_templates/footer.html" . }}

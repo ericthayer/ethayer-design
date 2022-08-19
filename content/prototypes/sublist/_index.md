@@ -1,10 +1,8 @@
 +++
 type = "page"
-page = "/prototypes"
-title = "UI/UX Prototypes"
-description = "Prototypes created using various types of UI design tech."
-headline = "Prototypes"
-subheader = "Most of the time my creative workflow consists of the following steps but it all depends on the project's goals. I love all stages of the design process and really enjoy pre-production and concept development."
+page = "/prototypes/sublist"
+headline = "SubList"
+subheader = "Prototypes created using various types of UI design tech."
 
 projectPreviewImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 projectName = "UI/UX Prototypes"
@@ -17,9 +15,8 @@ projectResponsibilities = "UI/UX designer"
 projectTechnologies = "Adobe XD, CodePen, Sketch, HTML/CSS"
 projectLibsFrameworks = "n/a"
 
-headerStyle = "bg-feature bg-blend-mode-exclusion"
-headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
-bannerStyle = ""
+headerStyle = "full-screen bg-dark bg-purple"
+headerBGImage = ""
 +++
 
 <section class="pt-2">

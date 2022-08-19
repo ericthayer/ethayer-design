@@ -20,6 +20,10 @@
   @include flex-basis-auto;
 }
 
+.flex-basis-100 {
+  @include flex-basis-100;
+}
+
 .flex-0 {
   @include flex-0;
 }
@@ -142,6 +146,10 @@
 
 .jc-evenly {
   @include jc-evenly;
+}
+
+.gap-1 {
+  gap: 1rem;
 }
 
 // Layout

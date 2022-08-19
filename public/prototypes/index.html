@@ -327,9 +327,9 @@
 </div>
 
 
-<section class="banner banner-headline align-center pt-pb-4 ">
+<section class="banner banner-headline align-center m-auto pt-pb-4 ">
   <div class="container pt-pb-4">
-    <h1 class="mr-ml-a">UI/UX Prototypes</h1>
+    <h1 class="mr-ml-a">Prototypes</h1>
     <p class="sub-header mb-0 mw-40em md-pr-pl-2 lg-pr-pl-3">Most of the time my creative workflow consists of the following steps but it all depends on the project&#39;s goals. I love all stages of the design process and really enjoy pre-production and concept development.</p>
   </div>
 </section>
@@ -366,9 +366,7 @@
           site.</p>
         <a href="../case-studies/concordus/">See Details</a>
       </div>
-    </figure> 
-    <!-- View More Link -->
-    <a class="cta-link hidden" href="#0">View More Examples</a>
+    </figure>
   </div>
 </section>
 </main>
@@ -379,10 +377,10 @@
 <section class="contact-banner container">
   <h2 class="h3 mb-sm hidden">Contact Me</h2>
   
-  <div class="flex flex-wrap ai-center jc-between">
+  <div class="flex flex-wrap ai-center jc-between gap-1">
     
     
-<div class="contact-nav mb-sm">
+<div class="contact-nav">
   <nav class="nav-icons" role="navigation">
     <ul aria-label="contact-nav">
       <li class="has-tooltip">
@@ -429,7 +427,7 @@
   </nav>
 </div>
 
-    <p class="copyrights mb-sm">&copy; Eric Thayer <a href="//github.com/ericthayer/ethayer/">
+    <p class="copyrights mb-0">&copy; Eric Thayer <a href="//github.com/ericthayer/ethayer/">
   <span class="sr-only">release version</span>
   <span aria-hidden="true">v</span>5.3.0</a> -
   
@@ -446,10 +444,24 @@
   
 
 
+
  
 
 
-<script src='/js/min/script.min.js' defer></script>
+<script>
+  if ('serviceWorker' in navigator) {
+
+    navigator.serviceWorker.register('\/sw.js').then(function() {
+      
+      console.log('ServiceWorker registration successful');
+    }).catch(function(err) {
+      
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+</script>
+
+<script src="/js/min/script.min.js" defer></script>
 
 <script defer>
   var html = document.documentElement;

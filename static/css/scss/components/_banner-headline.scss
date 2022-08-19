@@ -48,9 +48,9 @@
       text-decoration: none;
       text-shadow: none;
     }
-    .full-screen & {
-      max-width: 32em;
-    }
+    // .full-screen & {
+    //   max-width: 32em;
+    // }
   }
 
   @media (min-width: $break-540) {

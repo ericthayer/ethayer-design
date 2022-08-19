@@ -570,10 +570,10 @@
 
 @mixin full-screen {
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   
   .main-menu {
-    flex-grow: 0;
+    flex-basis: auto;
   }
 
   .banner {

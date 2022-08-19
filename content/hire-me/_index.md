@@ -1,11 +1,12 @@
 +++
 type = "page"
-page = "/hire-me/"
+page = "/hire-me"
 title = "Hire Me"
 description = "At my dream job, my team and I would…"
 headline = "Hire Me"
 subheader = "I'm want to be part of a product design or development team that cares deeply about communication, accessibility and performance based UI/UX solutions."
-headerStyle = "small bg-dark gradient-blue-purple-270"
+headerStyle = "bg-dark gradient-blue-purple-270"
+headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 +++
 
 <div class="container text-block mw-48em p-2">

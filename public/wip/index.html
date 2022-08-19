@@ -634,10 +634,24 @@
 
 
 
+
  
 
 
-<script src='/js/min/script.min.js' defer></script>
+<script>
+  if ('serviceWorker' in navigator) {
+
+    navigator.serviceWorker.register('\/sw.js').then(function() {
+      
+      console.log('ServiceWorker registration successful');
+    }).catch(function(err) {
+      
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+</script>
+
+<script src="/js/min/script.min.js" defer></script>
 
 <script defer>
   var html = document.documentElement;

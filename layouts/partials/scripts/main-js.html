@@ -1,10 +1,24 @@
-{{ $global := resources.Get "js/script.js" }}
+{{ $serviceWorker := resources.Get "sw.js" }}
+<!-- {{ $global := resources.Get "js/script.js" }} -->
 {{ $lazyload := resources.Get "js/libs/lazysizes.js" }}
 <!-- {{ $glider := resources.Get "js/libs/glider.min.js" }} -->
 {{ $fsLightbox := resources.Get "js/libs/fslightbox.min.js" }} 
-{{ $js := slice $global $lazyload $fsLightbox | resources.Concat "js/min/script.js" | resources.Minify }}
+{{ $js := slice $lazyload $fsLightbox | resources.Concat "js/min/script.js" | resources.Minify }}
 
-<script src='{{ $js.Permalink }}' defer></script>
+<script>
+  if ('serviceWorker' in navigator) {
+
+    navigator.serviceWorker.register('{{ $serviceWorker.Permalink }}').then(function() {
+      // Success
+      console.log('ServiceWorker registration successful');
+    }).catch(function(err) {
+      // Fail
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+</script>
+
+<script src="{{ $js.Permalink }}" defer></script>
 
 <script defer>
   var html = document.documentElement;

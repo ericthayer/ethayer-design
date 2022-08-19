@@ -1,6 +1,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/prototypes/sublist/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/_404/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
