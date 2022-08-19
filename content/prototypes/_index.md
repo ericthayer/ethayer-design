@@ -22,7 +22,7 @@ headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 bannerStyle = ""
 +++
 
-<section class="pt-pb-4">
+<section class="pt-5 pb-2">
   <!-- Section Title -->
   <div class="container align-center">
     <h2 id="design-process">Design Workflow</h2>
@@ -30,28 +30,28 @@ bannerStyle = ""
     <!-- Concordus -->
     <figure class="media-item">
       <a class="media-wrap img" href="../case-studies/concordus/">
-          <img class="lazyload" data-src="../images/content-img/16x9/img-16x9-Concordus-RWD-MD.jpg" data-srcset="../images/content-img/16x9/img-16x9-Concordus-RWD-LG.jpg 1400w, ../images/content-img/16x9/img-16x9-Concordus-RWD-MD.jpg 1400w" alt="Concordus Applications design and development for Kentico CMS.">
+          <img class="lazyload" data-src="../images/content-img/16x9/img-16x9-SubList-XD.webp" alt="SubList Mobile App design and development for Kentico CMS.">
           <time class="time-stamp" datetime="2017"><span class="sr-only">Successfully delivered</span>2017</time>
           <figcaption class="media-caption" aria-hidden="true">
-            <span class="project-title">Concordus Applications</span>                  
+            <span class="project-title">SubList Mobile App</span>                  
           </figcaption>
         </a>
       <noscript>
         <figure class="media-item">
           <a class="media-wrap img" href="../case-studies/concordus/">
-              <img src="../images/content-img/16x9/img-16x9-Concordus-RWD-MD.jpg" srcset="../images/content-img/16x9/img-16x9-Concordus-RWD-LG.jpg 1400w, ../images/content-img/16x9/img-16x9-Concordus-RWD-MD.jpg 1400w" alt="Concordus Applications design and development for Kentico CMS.">
+              <img src="../images/content-img/16x9/img-16x9-SubList-XD.webp" alt="SubList Mobile App design and development for Kentico CMS.">
               <time class="time-stamp" datetime="2017"><span class="sr-only">Successfully delivered</span>2017</time>
               <figcaption class="media-caption" aria-hidden="true">
-                <span class="project-title">Concordus Applications</span>                  
+                <span class="project-title">SubList Mobile App</span>                  
               </figcaption>
             </a>
         </figure>
       </noscript>
       <div class="media-details pt-2 pb-2 pr-pl-tiny">
-        <h3 class="mb-sm">Concordus Applications</h3>
+        <h3 class="mb-sm">SubList Mobile App</h3>
         <p class="mb-2">This is where the details would go. I could put anything I want here and should add to the experience of my
           site.</p>
-        <a href="../case-studies/concordus/">See Details</a>
+        <a href="./sublist">SubList</a>
       </div>
     </figure>
   </div>

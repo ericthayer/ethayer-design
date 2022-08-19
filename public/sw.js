@@ -9,6 +9,8 @@ const PRECACHE_URLS = [
   './',
   'index.html',
   '/css/styles.min.css',
+  '/images/content-img/portfolio/web/img-portfolio-merchants-home-1.0.webp',
+  '/images/content-img/portfolio/web/img-portfolio-curiteva-home-v1.4.webp',
   '/css/fonts/Knockout-HTF29-JuniorLiteweight-subset.woff',
   '/css/fonts/Knockout-HTF29-JuniorLiteweight-subset.woff2',
   '/css/fonts/RobotoCondensed-Regular-subset.woff',

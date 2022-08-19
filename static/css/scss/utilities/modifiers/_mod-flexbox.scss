@@ -52,6 +52,10 @@
   @include flex-grow-1;
 }
 
+.flex-grow-0 {
+  @include flex-grow-0;
+}
+
 .flex-shrink-1 {
   @include flex-shrink-1;
 }

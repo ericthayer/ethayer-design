@@ -9,7 +9,7 @@ headerStyle = "bg-dark gradient-blue-purple-270"
 headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 +++
 
-<div class="container text-block mw-48em p-2">
+<div class="container text-block mw-48em pt-2 pr-pl-2">
 
    <h2 class="h4 mb-3 mr-ml-a mw-25em text-center lg-pr-pl-2">At my dream job, my team and I would…</h2>
 
