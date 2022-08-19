@@ -31,7 +31,7 @@
 .nav-main {
   @include flex;
   // @include ai-center;
-  flex-basis: 100px;
+  // flex-basis: 100px;
   margin-bottom: 0;
 
   ul {
@@ -40,9 +40,9 @@
     margin-bottom: 0;
     text-align: center;
 
-    @media (max-width: 20em) {
-      @include flex-wrap;
-    }
+    // @media (max-width: 20em) {
+    //   @include flex-wrap;
+    // }
   }
 
   li {
@@ -143,15 +143,8 @@
     // }
   }
 
-  // > 375
-  @media (min-width: $break-240) {
-    flex-wrap: nowrap;
-  }
-
-  // > 640
-  @media (min-width: $break-640) {
+  @media (min-width: 400px) {
     align-items: stretch;
-    flex-grow: 1;
     justify-content: flex-end;
 
     ul {
@@ -162,21 +155,16 @@
       padding: 1.25rem 1.5rem;
     }
   }
-
-  // > 768
-  @media (min-width: $break-768) {
-    justify-content: flex-end;
-
-    li {
-      flex-grow: 0;
-    }
-  }
 }
 
 .main-menu {
   @include flex;
   @include jc-between;
   flex-basis: 100%;
+
+  @media (max-width: 399px) {
+    @include flex-d-col;    
+  }
 }
 
 .home-link {

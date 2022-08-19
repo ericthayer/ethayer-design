@@ -6,7 +6,7 @@
   min-height: 0;
   padding-top: 1.5em;
   padding-right: 1.5em; 
-  padding-bottom: 1.5em;
+  padding-bottom: 0;
   padding-left: 1.5em;
   transition: background-color .4s ease;
   &:hover,
@@ -15,15 +15,11 @@
     // outline: -moz-focus-ring-color auto 5px;
     // outline: -webkit-focus-ring-color auto 5px;
   }
-  // < 540
-  @media (max-width: $break-640 - .01em) {
-    // display: none;
-  }
-  // > 540
-  @media (min-width: $break-640) {
+
+  @media (min-width: 400px) {
     flex-grow: 0;
     padding-top: 1em;
-    padding-bottom: 1em; 
+    padding-bottom: 1em;
     width: 14em;
   }
 }
