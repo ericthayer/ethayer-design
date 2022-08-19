@@ -22,7 +22,7 @@ headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 bannerStyle = ""
 +++
 
-<section class="pt-2">
+<section class="pt-pb-4">
   <!-- Section Title -->
   <div class="container align-center">
     <h2 id="design-process">Design Workflow</h2>
