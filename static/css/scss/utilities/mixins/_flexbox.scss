@@ -283,7 +283,7 @@
 
     > * {
       float: left;
-      flex-basis: 18em;
+      flex-basis: 17rem;
       flex-grow: 1;
       min-height: 0;
       min-width: 0;
@@ -298,7 +298,7 @@
   }
   @media (min-width: 1050px) {
     > * {
-      flex-basis: 15em;
+      flex-basis: 15rem;
 
       &.spotlight {
         flex-basis: 45%;
