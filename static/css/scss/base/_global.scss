@@ -18,6 +18,10 @@ body {
   @include flex;
   @include flex-d-col;
   @include mh-100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
   &.reel {
     @media (min-height: $break-768) {
       //min-height: 100vh;
