@@ -17,8 +17,10 @@ projectResponsibilities = "UI/UX designer"
 projectTechnologies = "Adobe XD, CodePen, Sketch, HTML/CSS"
 projectLibsFrameworks = "n/a"
 
-headerStyle = "bg-feature bg-blend-mode-exclusion"
-headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
+headerStyle = "full-screen bg-dark bg-blue"
+headerBGImage = "/images/content-img/16x9/img-16x9-XD-wire1-XL.jpg"
+headerBlendMode = "multiply"
+
 bannerStyle = ""
 +++
 
@@ -29,7 +31,7 @@ bannerStyle = ""
     <p class="sub-header mb-2 mw-35em md-pr-pl-2">Most of the time my creative workflow consists of the following steps but it all depends on the project's goals. I love all stages of the design process and really enjoy pre-production and concept development.</p>
     <!-- Concordus -->
     <figure class="media-item">
-      <a class="media-wrap img" href="../case-studies/concordus/">
+      <a class="media-wrap img" href="#0">
           <img class="lazyload" data-src="../images/content-img/16x9/img-16x9-SubList-XD.webp" alt="SubList Mobile App design and development for Kentico CMS.">
           <time class="time-stamp" datetime="2017"><span class="sr-only">Successfully delivered</span>2017</time>
           <figcaption class="media-caption" aria-hidden="true">
@@ -38,7 +40,7 @@ bannerStyle = ""
         </a>
       <noscript>
         <figure class="media-item">
-          <a class="media-wrap img" href="../case-studies/concordus/">
+          <a class="media-wrap img" href="#0">
               <img src="../images/content-img/16x9/img-16x9-SubList-XD.webp" alt="SubList Mobile App design and development for Kentico CMS.">
               <time class="time-stamp" datetime="2017"><span class="sr-only">Successfully delivered</span>2017</time>
               <figcaption class="media-caption" aria-hidden="true">

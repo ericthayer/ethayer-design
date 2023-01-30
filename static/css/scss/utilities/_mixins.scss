@@ -570,8 +570,9 @@
 }
 
 @mixin full-screen {
+  background-size: cover;
   flex-direction: column;
-  height: 100vh;
+  height: 85vh;
   
   .main-menu {
     flex-basis: auto;
@@ -580,7 +581,7 @@
   .banner {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    // flex-grow: 1;
     padding-top: 0;
     padding-bottom: 0;
   }

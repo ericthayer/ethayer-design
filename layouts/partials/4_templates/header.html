@@ -1,6 +1,6 @@
 {{ partial "1_elements/head.html" . }}
 
 <!-- Header -->
-  <header id="site-header" class="site-header {{ .Params.headerStyle }}" style="background-image: url('{{ .Params.headerBGImage }}');" role="banner">
+<header id="site-header" class="site-header {{ .Params.headerStyle }}" style="background-image: url('{{ .Params.headerBGImage }}'); background-blend-mode: {{ .Params.headerBlendMode }};" role="banner">
 
-    {{ partial "2_components/menus/demo-menu.html" . }}
+  {{ partial "2_components/menus/demo-menu.html" . }}
