@@ -1,3 +1,14 @@
++++
+type = "page"
+page = ""
+title = "questions"
+description = ""
+headline = ""
+subheader = ""
+headerStyle = ""
+headerBGImage = ""
++++
+
 <!--<p class="question">
    <h2 class="h4 mb-3 mr-ml-a mw-25em text-center lg-pr-pl-2">Below are some answers to frequently asked hiring questions and a description of what my dream job would be.</h2>
     <span>Where are you currently working?</span>
