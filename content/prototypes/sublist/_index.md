@@ -15,7 +15,7 @@ projectResponsibilities = "UI/UX designer"
 projectTechnologies = "Adobe XD, CodePen, Sketch, HTML/CSS"
 projectLibsFrameworks = "n/a"
 
-headerStyle = "bg-dark bg-purple"
+headerStyle = "full-screen bg-dark bg-purple"
 headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 headerBlendMode = "exclusion"
 
