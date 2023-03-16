@@ -11,7 +11,7 @@ headerBGImage = ""
 
 <div class="container text-block mw-48em pt-pb-2 pr-pl-2">
 
-   <h2 class="h4 mb-3 mr-ml-a mw-25em text-center lg-pr-pl-2">At my dream job, my team and I would…</h2>
+  <h2 class="h4 mb-3 mr-ml-a mw-25em text-center lg-pr-pl-2">At my dream job, my team and I would…</h2>
   <ul class="grid-list">
     <li>
       <svg class="icon c-blue"><use xlink:href="#icon-draw" /></svg>
@@ -47,6 +47,8 @@ headerBGImage = ""
     </li> 
   </ul>
 
-  <p class="mb-0"><a href="/#contact-form" class="cta-link">How can I help?</a></p>
+  <p class="mb-0">
+    <a href="/#contact-form" class="cta-link">How can I help?</a>
+  </p>
 
 </div>
