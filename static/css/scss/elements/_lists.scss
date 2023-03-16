@@ -48,7 +48,9 @@
     @include pr-pl-2;
   }
   @supports (grid-gap: 0) {
-    grid-gap: 4em;
+    grid-column-gap: 2em;
+    grid-row-gap: 4em;
+    
     li {
       @include mb-0;
       @include pr-pl-0;
