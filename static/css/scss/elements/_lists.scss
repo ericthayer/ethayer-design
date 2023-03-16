@@ -38,7 +38,7 @@
   }
   // 640
   @media (min-width: $break-640) {
-    grid-gap: 4em 4em;
+    grid-gap: 4em;
     @include text-tiny;
   }
   // 800
@@ -48,9 +48,8 @@
     @include pr-pl-2;
   }
   @supports (grid-gap: 0) {
-    grid-column-gap: 2em;
     grid-row-gap: 4em;
-    
+
     li {
       @include mb-0;
       @include pr-pl-0;
