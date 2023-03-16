@@ -15,11 +15,11 @@ headerBGImage = ""
   <ul class="grid-list">
     <li>
       <svg class="icon c-blue"><use xlink:href="#icon-draw" /></svg>
-      <span><strong>Design and maintain living styleguides.</strong> Create pattern libraries or any other resource to help with the design or development of any brand or product elements needed. We are sticklers for organization and visual order and believe in one code base to rule them all.</span>
+      <span><strong>Design and maintain living style guides.</strong> Create pattern libraries or any other resource to help with the design or development of any brand or product elements needed. We are sticklers for organization and visual order and believe in one code base to rule them all.</span>
     </li>
     <li>
       <svg class="icon icon-top-adjust c-pink"><use xlink:href="#icon-devices-alt" /></svg>
-      <span><strong>Build interactive prototypes.</strong> Create static or code based interactions. This helps test our ideas before the costly development stage. Designs can be presented quickly to users and changes are easy to make togehter.</span>
+      <span><strong>Build interactive prototypes.</strong> Create static or code based interactions. This helps test our ideas before the costly development stage. Designs can be presented quickly to users and changes are easy to make together.</span>
     </li>
     <li>
       <svg class="icon icon-audits c-orange"><use xlink:href="#icon-audits" /></svg>
@@ -47,6 +47,6 @@ headerBGImage = ""
     </li> 
   </ul>
 
-  <a href="/#contact-form" class="cta-link h5 mb-0 pt-1">How can I help?</a>
+  <a href="/#contact-form" class="cta-link h5 mb-0">How can I help?</a>
 
 </div>
