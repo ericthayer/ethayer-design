@@ -2,7 +2,7 @@
 type = "page"
 page = "/prototypes/sublist"
 headline = "SubList"
-subheader = "Prototypes created using various types of UI design tech."
+subtitle = "Prototypes created using various types of UI design tech."
 
 projectPreviewImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 projectName = "UI/UX Prototypes"
@@ -19,7 +19,8 @@ headerStyle = "full-screen bg-dark bg-purple"
 headerBGImage = "/images/content-img/16x9/img-16x9-SubList-XD.webp"
 headerBlendMode = "exclusion"
 
-bannerStyle = ""
+subtitleStyle = ""
+bannerStyle = "pt-pb-4"
 +++
 
 <section class="pt-pb-4">

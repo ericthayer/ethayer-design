@@ -92,12 +92,14 @@ a {
 }
 
 p {
+  -moz-osx-font-smoothing: greyscale;
+  -webkit-font-smoothing: antialiased;
   color: #444;
   font-size: 1.2em;
   @include fonts-loaded-Roboto;
   line-height: 1.576;
-  -moz-osx-font-smoothing: greyscale;
-  -webkit-font-smoothing: antialiased;
+  max-width: 72ch;
+
   a {
     color: $link;
     text-decoration: underline;
@@ -176,7 +178,7 @@ p ol {
   }
 }
 
-.sub-header {
+.subtitle {
   //@include fonts-loaded-KO29;
   @include antialiased;
   font-size: 1.25rem;

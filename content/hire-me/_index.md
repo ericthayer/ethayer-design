@@ -4,7 +4,7 @@ page = "/hire-me"
 title = "Hire Me"
 description = "At my dream job, my team and I would…"
 headline = "Hire Me"
-subheader = "I'm want to be part of a product design or development team that cares deeply about communication, accessibility and performance based UI/UX solutions."
+subtitle = "I'm want to be part of a product design or development team that cares deeply about communication, accessibility and performance based UI/UX solutions."
 headerStyle = "small bg-dark gradient-blue-purple-270"
 headerBGImage = ""
 +++

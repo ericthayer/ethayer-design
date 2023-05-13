@@ -34,7 +34,7 @@
     }
   }
 
-  .sub-header {
+  .subtitle {
     line-height: 2.125rem;
     // &.header-lg {
     //   line-height: 2.5rem;
@@ -63,12 +63,12 @@
 
   @media (min-width: 44em) {
     h1 {
-      max-width: calc(1vw + 10em);
+      // max-width: calc(1vw + 10em);
     }
     .fonts-loaded & {
       h1 {
         font-size: calc(1vw + 4.25em);
-        max-width: calc(1vw + 7em);
+        // max-width: calc(1vw + 7em);
       }
     }
   }

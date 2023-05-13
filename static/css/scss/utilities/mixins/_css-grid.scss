@@ -16,7 +16,7 @@
   }
   @supports (grid-gap: 0) {
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 4em;
 
     > * {
       @include m-0;

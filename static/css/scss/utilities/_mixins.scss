@@ -18,20 +18,20 @@
   }
 }
 @mixin fade-in {
-  animation: fade-in .4s linear forwards;
+  animation: fade-in 0.4s linear forwards;
   opacity: 0;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
 }
 
 @mixin fade-out {
-  animation: fade-out .4s linear forwards;
+  animation: fade-out 0.4s linear forwards;
   opacity: 1;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
 }
 
 @mixin fade-out-delay {
-  animation: fade-out .4s 4s linear forwards;
-  transition: opacity .4s ease;
+  animation: fade-out 0.4s 4s linear forwards;
+  transition: opacity 0.4s ease;
 }
 
 @mixin antialiased {
@@ -69,12 +69,11 @@
 }
 
 // Grid Layout
-@mixin grid-flex($grid-item: 'n+4') {
-  @if $grid-item=='n+4' {
+@mixin grid-flex($grid-item: "n+4") {
+  @if $grid-item== "n+4" {
     flex-grow: 0;
     width: 25% !important;
-  }
-  @else {
+  } @else {
     flex-grow: 1;
     width: 33.3333333% !important;
   }
@@ -145,10 +144,10 @@
 @mixin date-label {
   display: inline-block;
   background-color: darkred;
-  font-size: .875em;
-  color: #FFF;
+  font-size: 0.875em;
+  color: #fff;
   margin: 0;
-  padding: .25em 1em;
+  padding: 0.25em 1em;
   text-shadow: $blk-text-shadow-neg;
 }
 
@@ -159,11 +158,11 @@
 // Box Styles
 @mixin card-white {
   background: white;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
 }
 
 @mixin card-media {
-  background: #EEE;
+  background: #eee;
   padding: 0.5em;
   .sidebar-main &,
   .media-viewer & {
@@ -172,8 +171,8 @@
 }
 
 @mixin card-grey {
-  background: #EEE;
-  border: 1px solid #DDD;
+  background: #eee;
+  border: 1px solid #ddd;
 }
 
 @mixin card-reset {
@@ -187,10 +186,10 @@
   &:before {
     background-color: $orange-red;
     border-radius: 50%;
-    color: #FFF;
+    color: #fff;
     content: counter(sequential);
-    font-size: .875rem;
-    line-height: .5;
+    font-size: 0.875rem;
+    line-height: 0.5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,7 +204,7 @@
   } // > 640
   @media (min-width: $break-640) {
     .title {
-      margin-bottom: .9rem;
+      margin-bottom: 0.9rem;
     }
   }
 }
@@ -271,7 +270,7 @@
 // Centered Text Border
 @mixin text-border-ctr {
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 30px;
     right: 30px;
@@ -281,13 +280,20 @@
     z-index: -2;
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     height: 50px;
     margin: -25px 0 0 -600px;
     width: 1200px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.6) 70%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 30%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0.6) 70%,
+      rgba(255, 255, 255, 0) 100%
+    );
     top: 50%;
     z-index: -1;
   }
@@ -298,7 +304,7 @@
 // http://codepen.io/eode9/pen/twkKm?editors=110
 @mixin corner-ribbon {
   width: 200px;
-  background: #CCC;
+  background: #ccc;
   position: absolute;
   top: 15px;
   left: -60px;
@@ -309,7 +315,7 @@
     size: 0.65em;
     weight: 700;
   }
-  color: #FFF;
+  color: #fff;
   cursor: default;
   text-transform: uppercase;
   transform: rotate(-45deg);
@@ -318,7 +324,7 @@
     position: fixed;
   }
   &.shadow {
-    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   } // Different positions
   &.top-left {
     top: 25px;
@@ -407,20 +413,20 @@
     font-size: 1.5em;
     opacity: 0;
     position: absolute;
-    transition: opacity .4s ease;
+    transition: opacity 0.4s ease;
     top: 0;
-    line-height: .9;
+    line-height: 0.9;
     height: 100%;
   }
   &:before {
     content: "‣ ";
-    left: -.65em;
+    left: -0.65em;
     height: 100px;
     width: 100px;
   }
   &:after {
     top: -1px;
-    right: -.6em;
+    right: -0.6em;
     transform: rotateY(180deg);
   }
   &:hover,
@@ -433,11 +439,17 @@
 }
 
 @mixin link-shadow {
-  text-shadow: .05em 0 0 #F9F9F9, -0.05em 0 0 #F9F9F9, 0 .05em 0 #F9F9F9, 0 -0.05em 0 #F9F9F9, .1em 0 0 #F9F9F9, -0.1em 0 0 #F9F9F9, 0 .1em 0 #F9F9F9, 0 -0.1em 0 #F9F9F9;
-  background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  text-shadow: 0.05em 0 0 #f9f9f9, -0.05em 0 0 #f9f9f9, 0 0.05em 0 #f9f9f9,
+    0 -0.05em 0 #f9f9f9, 0.1em 0 0 #f9f9f9, -0.1em 0 0 #f9f9f9,
+    0 0.1em 0 #f9f9f9, 0 -0.1em 0 #f9f9f9;
+  background-image: linear-gradient(
+    to right,
+    currentColor 0%,
+    currentColor 100%
+  );
   background-repeat: repeat-x;
-  background-position: bottom .05em center;
-  background-size: 100% .07em;
+  background-position: bottom 0.05em center;
+  background-size: 100% 0.07em;
 }
 
 @mixin no-link-shadow {
@@ -473,7 +485,7 @@
 
 @mixin fonts-loaded-Roboto {
   font-family: $sans-serif-narrow;
-  
+
   .fonts-loaded & {
     font-family: $Roboto;
     font-weight: normal;
@@ -573,7 +585,7 @@
   background-size: cover;
   flex-direction: column;
   height: 85vh;
-  
+
   .main-menu {
     flex-basis: auto;
   }

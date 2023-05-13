@@ -3,7 +3,7 @@ type = "page"
 page = "/dmns"
 title = "Denver Museum of Nature and Science"
 headline = "Denver Museum of Nature & Science"
-subheader = "Front-end development and style guide for the Denver Museum of Nature and Science"
+subtitle = "Front-end development and style guide for the Denver Museum of Nature and Science"
 
 projectPreviewImage = "images/content-img/16x9/img-16x9-DMNS.webp"
 projectName = "Denver Museum of Nature and Science"
