@@ -9,6 +9,7 @@ assetDir = "static"
   author = "Eric Thayer"
   description = "I'm a freelance consultant with a passion for building design systems and inclusive components with other like-minded people."
   versionTag = "5.4.8"
+  repoURL = "https://github.com/ericthayer/ethayer-design"
 
 # [[menu.main]]
 #   name = "About"
