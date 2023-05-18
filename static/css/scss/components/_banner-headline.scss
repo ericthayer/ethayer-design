@@ -12,6 +12,11 @@
 //   }
 // }
 
+.prototypes {
+  // @include bg-red-pink;
+  background: url("../../../images/content-img/16x9/img-16x9-XD-wire1-XL.jpg"), linear-gradient(-112deg, rgb(74, 190, 223), rgb(102, 51, 153)), no-repeat; 
+}
+
 .banner {
   //@include banner;
 }
