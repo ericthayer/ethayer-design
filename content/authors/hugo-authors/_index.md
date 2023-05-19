@@ -8,8 +8,8 @@ featured: true
 social:
   - title: github
     url: https://github.com
-  - title: github
-    url: https://github.com
+  - title: codepen
+    url: https://codepen.io/ericthayer/
   - title: github
     url: https://github.com
   - title: github

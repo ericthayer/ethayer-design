@@ -8,13 +8,7 @@
     <loc>http://example.org/authors/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/authors/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/authors/hugo-authors/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/authors/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/post/markdown-syntax/</loc>
@@ -23,20 +17,12 @@
     <loc>http://example.org/post/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/authors/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/authors/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/about/</loc>
-  </url><url>
-    <loc>http://example.org/authors/about/</loc>
   </url>
 </urlset>
