@@ -1,9 +1,9 @@
-baseURL = "/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
 # Novela settings
-theme = "novela"
+theme = "blog"
 
 paginate = 6
 
@@ -17,3 +17,4 @@ youtube = "#"
 
 [taxonomies]
 author = "authors"
+
