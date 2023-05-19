@@ -1,6 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado"
+disableHugoGeneratorInject = true
 
 # Novela settings
 theme = "blog"
@@ -8,12 +9,11 @@ theme = "blog"
 paginate = 6
 
 [social]
-twitter= "https://twitter.com/forestryio"
-github= "https://github.com/forestryio/novela-hugo-starter"
-linkedin= "https://www.linkedin.com/company/forestry.io"
+email = "mailto:ethayer.design@gmail.com"
+github = "https://github.com/forestryio/novela-hugo-starter"
+linkedin = "https://www.linkedin.com/company/forestry.io"
 codepen = "https://codepen.io/ericthayer/"
-dribbble = "#"
-youtube = "#"
+dribbble = "https://dribbble.com/ethayer/"
 
 [taxonomies]
 author = "authors"

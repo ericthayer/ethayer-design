@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Thayer on Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</title>
+    <link>/authors/eric-thayer/</link>
+    <description>Recent content in Eric Thayer on Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/authors/eric-thayer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facilitating a Design Sprint</title>
+      <link>/post/design-sprint-process/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/design-sprint-process/</guid>
+      <description>The Design Sprint Process: Facilitating Innovation Innovation is key to a successful business. In today&amp;rsquo;s rapidly changing landscape, it is essential to stay ahead of the curve and constantly come up with new and improved products and services. However, innovation is not always easy. It requires creativity, collaboration, and a willingness to take risks. This is where the design sprint process comes in.
+Introduction The &amp;ldquo;design sprint&amp;rdquo; process is a five-day framework developed by Google Ventures to help teams design and test product ideas.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the User Interface (UI) and User Experience (UX) Research Process</title>
+      <link>/post/ui-ux-research-process/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ui-ux-research-process/</guid>
+      <description>User Interface (UI) and User Experience (UX) are two crucial components of any software development project. UI refers to the visual aspect of an application, which includes the design, layout, and functionality of the user interface. UX, on the other hand, is all about the user&amp;rsquo;s experience while interacting with the application.
+The UI and UX research process involves a series of steps aimed at understanding user needs, preferences, and behavior.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
