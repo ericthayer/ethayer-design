@@ -1,7 +1,7 @@
 ## [ethayer.design](https://ethayer.design/)
 --------------------
 
-The portfolio site of [Eric Thayer](https://ethayer.design/Eric-Thayer-Resume-Web-Designer-and-Front-end-Developer.pdf "view my resume in PDF form"), a UI/UX creative from Colorado, with a passion for building [design systems](https://dmns.netlify.app/pattern-library/) and [inclusive components](https://codepen.io/collection/DRKVjx?grid_type=grid) with other [like-minded](https://codepen.io/ericthayer/followers/) people.
+I'm a [UI/UX](https://ethayer.design/Eric-Thayer-Resume-Web-Designer-and-Front-end-Developer.pdf "view my resume in PDF form") creative from Colorado, with a passion for building [design systems](https://dmns.netlify.app/pattern-library/) and [inclusive components](https://codepen.io/collection/DRKVjx?grid_type=grid) with other [like-minded](https://codepen.io/ericthayer/followers/) people.
 
 <img width="1086" alt="image" src="https://github.com/ericthayer/ethayer-design/assets/2737007/c098cbd9-8e18-4953-ad92-606cf455ff88">
 
