@@ -58,9 +58,9 @@ nav {
 .example-links {
   a {
     color: $link;
-    @include block;
+    @include flex;
     text-align: center;
-    width: 2em;
+    // width: 2em;
     &:hover,
     &:focus {
       color: hotpink;
@@ -68,8 +68,11 @@ nav {
   }
   strong {
     font-weight: normal;
+    position: relative;
+    top: 0px;
   }
   .icon {
+    top: 0px;
     //display: none;  
   }
 }
