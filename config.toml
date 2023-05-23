@@ -2,19 +2,21 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado"
 disableHugoGeneratorInject = true
+copyright = "Built with <a href='#0'>Hugo</a> and <a href='#0'>Netlify</a>"
 
-# Novela settings
 theme = "blog"
-
 paginate = 6
 
+[params]
+  versionTag = "6.0.0"
+
 [social]
-email = "mailto:ethayer.design@gmail.com"
-github = "https://github.com/forestryio/novela-hugo-starter"
-linkedin = "https://www.linkedin.com/company/forestry.io"
-codepen = "https://codepen.io/ericthayer/"
-dribbble = "https://dribbble.com/ethayer/"
+  email = "mailto:ethayer.design@gmail.com"
+  github = "https://github.com/forestryio/novela-hugo-starter"
+  linkedin = "https://www.linkedin.com/company/forestry.io"
+  codepen = "https://codepen.io/ericthayer/"
+  dribbble = "https://dribbble.com/ethayer/"
 
 [taxonomies]
-author = "authors"
+  author = "authors"
 

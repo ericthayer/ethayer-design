@@ -419,16 +419,9 @@
 }
 
 .article-metadata {
+  color: var(--grey-light);
   font-weight: 600;
-  font-size: 16px;
-  color: var(--grey);
-  opacity: 0.33;
-
-  /*PHABLET*/
-  @media screen and (max-width: $phablet) {
-    max-width: 100%;
-    padding: 0 20px 30px;
-  }
+  font-size: 0.875rem;
 }
 
 .post-row {

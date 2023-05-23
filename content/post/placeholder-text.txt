@@ -5,7 +5,6 @@ hero: /images/hero-4.jpg
 excerpt: Lorem Ipsum Dolor Si Amet
 authors:
   - Eric Thayer
-
 ---
 
 Lorem est tota propiore conpellat pectoribus de

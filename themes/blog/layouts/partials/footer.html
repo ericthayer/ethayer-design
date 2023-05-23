@@ -3,8 +3,9 @@
       <div class="footer-hr"></div>
       <div class="footer-container">
         <div class="footer-text">
-          © {{ dateFormat "2006" now }} {{ .Site.Title }}
+          © {{ dateFormat "2006" now }}
         </div>
+        <div class="mx-auto flex-grow-1">{{ .Site.Params.versionTag }} {{ .Site.Copyright | safeHTML }}</div>
         {{ partial "social-links/social-links.html" . }}
     </div>
 </div>

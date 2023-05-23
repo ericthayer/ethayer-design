@@ -1,8 +1,8 @@
 ---
-title: Understanding the User Interface (UI) and User Experience (UX) Research Process
+title: Understanding the UI/UX Research Process
 date: 2021-03-05
 hero: "/images/content-img/16x9/img-16x9-health-scholars-discovery-mapping.png"
-excerpt: A look into the UI/UX research process
+excerpt: A look into the research process of UI/UX design
 authors:
   - Eric Thayer
 ---
