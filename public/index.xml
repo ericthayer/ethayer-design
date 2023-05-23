@@ -6,7 +6,27 @@
     <description>Recent content on Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Built with &lt;a href=&#39;#0&#39;&gt;Hugo&lt;/a&gt; and &lt;a href=&#39;#0&#39;&gt;Netlify&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 22 May 2023 14:06:51 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building VR UI With Unity&#39;s UI Toolkit</title>
+      <link>/post/building-vr-ui-with-unity-ui-toolkit/</link>
+      <pubDate>Mon, 22 May 2023 14:06:51 -0600</pubDate>
+      
+      <guid>/post/building-vr-ui-with-unity-ui-toolkit/</guid>
+      <description>Introduction Unity&amp;rsquo;s UI Toolkit is a powerful tool that allows developers to create user interfaces that are both intuitive and visually appealing. With a wide range of features and customization options, it&amp;rsquo;s no wonder that more and more developers are turning to this tool for their UI needs. In this blog post, we&amp;rsquo;ll explore the basics of creating user interfaces in Unity&amp;rsquo;s UI Toolkit and discuss some tips and tricks to help you get started.</description>
+    </item>
+    
+    <item>
+      <title>Container Query State of Mind</title>
+      <link>/post/container-queries/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/container-queries/</guid>
+      <description>Front-end development has come a long way in recent years. With responsive design and mobile-first approaches, developers have been able to design and develop websites that work well on all devices. However, as the number of device sizes and resolutions continues to grow, responsive design alone may not be enough. This is where container queries come in.
+So, what exactly are container queries? Container queries allow developers to apply CSS styles based on the size of a container, rather than the size of the viewport.</description>
+    </item>
+    
     <item>
       <title>Facilitating a Design Sprint</title>
       <link>/post/design-sprint-process/</link>
@@ -18,32 +38,13 @@ Introduction The &amp;ldquo;design sprint&amp;rdquo; process is a five-day frame
     </item>
     
     <item>
-      <title>Understanding the User Interface (UI) and User Experience (UX) Research Process</title>
+      <title>Understanding the UI/UX Research Process</title>
       <link>/post/ui-ux-research-process/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/post/ui-ux-research-process/</guid>
       <description>User Interface (UI) and User Experience (UX) are two crucial components of any software development project. UI refers to the visual aspect of an application, which includes the design, layout, and functionality of the user interface. UX, on the other hand, is all about the user&amp;rsquo;s experience while interacting with the application.
 The UI and UX research process involves a series of steps aimed at understanding user needs, preferences, and behavior.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
