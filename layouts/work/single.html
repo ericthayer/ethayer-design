@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section class="section narrow">
+
+    {{ partial "work-sample/hero.html" . }}
+
+    <article  id="articleContent" class="post-content" style="position:relative;">
+        {{ .Content }}
+    </article>
+
+
+    {{ partial "work-sample/next.html" . }}
+</section>
+
+{{ end }}

@@ -8,6 +8,11 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: 5rem;
+
+  & > :first-child,
+  & > :last-child {
+    flex-basis: 20%;
+  }
 }
 
 .footer-hr {
@@ -18,16 +23,7 @@
 
 .footer-text {
   display: flex;
-  justify-content: space-around;
-}
-
-.mx-auto {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.flex-grow-1 {
-  flex-grow: 1;
+  // justify-content: space-around;
 }
 
 /*TABLET*/

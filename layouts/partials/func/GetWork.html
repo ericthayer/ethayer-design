@@ -1,0 +1,21 @@
+{{/*
+  GetWork
+  Retrieve work page
+
+  @author @regisphilibert
+
+  @context Page (.)
+
+  @access public
+
+  @return Collection
+          - Page (.)
+
+  @example - Go Template
+    {{ $work := partialCached "func/GetWork" . "work" }}
+*/}}
+{{ $work := slice }}
+{{ with where site.RegularPages "Type" "work" }}
+  {{ $work = . }}
+{{ end }}
+{{ return $work }}

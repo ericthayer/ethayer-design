@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.svg">
+    
+    <link rel="stylesheet" href="/scss/global.min.1f75f6d11519a5d03feb33fd6188de1b7c8665fa3d67014f4fb611ba4418ee57.css">
+    
+    <link rel="stylesheet" href="/css/prism.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700;800&display=swap" rel="stylesheet">
+    
+
+ 
+
+
+
+
+
+
+	
+
+
+
+
+<title>Refactoring UI: A Comprehensive Guide to Better Visual Design | Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</title>
+<meta name="description" content="Refactoring UI is a website that provides a comprehensive guide to better visual design. It is run by two experienced designers, Adam Wathan and Steve Schoger, who have years of experience designing interfaces for software products. The website offers a wealth of knowledge and practical tips that you can easily apply to your projects.
+Designing a user interface can be a daunting task, especially for those who are not experienced in the field.">
+<meta property="og:title" content="Refactoring UI: A Comprehensive Guide to Better Visual Design | Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado">
+<meta property="og:site_name" content="Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado">
+<meta property="og:description" content="Refactoring UI is a website that provides a comprehensive guide to better visual design. It is run by two experienced designers, Adam Wathan and Steve Schoger, who have years of experience designing interfaces for software products. The website offers a wealth of knowledge and practical tips that you can easily apply to your projects.
+Designing a user interface can be a daunting task, especially for those who are not experienced in the field.">
+<meta property="og:url" content="/articles/refactoring-ui-guide/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content='/images/content-img/16x9/img-16x9-refactoring-ui-guide.jpg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Refactoring UI: A Comprehensive Guide to Better Visual Design | Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado">
+
+	<link rel="canonical" href="/articles/refactoring-ui-guide/">
+
+
+	<meta name="twitter:description" content="Refactoring UI is a website that provides a comprehensive guide to better visual design. It is run by two experienced designers, Adam Wathan and Steve Schoger, who have years of experience designing interfaces for software products. The website offers a wealth of knowledge and practical tips that you can easily apply to your projects.
+Designing a user interface can be a daunting task, especially for those who are not experienced in the field.">
+<meta name="twitter:image" content="/images/content-img/16x9/img-16x9-refactoring-ui-guide.jpg">
+<meta property="article:published_time" content="2023-06-02T21:46:09-06:00">
+	<meta property="article:updated_time" content="2023-06-02T21:46:09-06:00">
+
+
+
+</head>
+
+
+<body class="line-numbers">
+
+    
+    <script src="/js/initColors.js"></script>
+
+    <div class="layout-styled">
+
+        <section class="section">
+  <div class="nav-container">
+    <a class="logo-link" href="/">
+      <div id="logo-desktop">
+  <svg width="60" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.69 91.67" style="margin-right: 5px;">
+    <defs>
+      <style>
+        .a {
+          isolation: isolate;
+        }
+
+        .b {
+          fill: #9cb2b0;
+        }
+
+        .c {
+          fill: #dddacc;
+          mix-blend-mode: multiply;
+        }
+      </style>
+    </defs>
+    <title>ethayer-logo-icon</title>
+    <g class="a">
+      <polygon class="b" points="96.34 22.96 77 0 57.84 22.74 58.03 22.96 77.37 45.92 58.03 68.8 57.84 69.02 77 91.67 96.34 68.8 115.69 45.92 96.34 22.96" />
+      <polygon class="c" points="38.31 45.92 57.66 22.96 57.84 22.74 38.69 0 19.34 22.96 0 45.92 19.34 68.8 38.69 91.67 57.84 69.02 57.66 68.8 38.31 45.92" />
+    </g>
+  </svg>
+  
+</div>
+
+
+      <span class="header-hidden">Navigate back to the homepage</span>
+    </a>
+    <div class="nav-controls flex-grow-1 justify-space-between">      
+      <div class="d-flex flex-row mr-a d-none">
+        <button id="copyButton" class="icon-wrapper d-none">
+          <svg
+    class="icon-image"
+    width="24"
+    height="20"
+    viewBox="0 0 24 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M2 5C2 3.34328 3.34328 2 5 2H14C15.6567 2 17 3.34328 17 5V9C17 10.6567 15.6567 12 14 12H10C9.44771 12 9 12.4477 9 13C9 13.5523 9.44771 14 10 14H14C16.7613 14 19 11.7613 19 9V5C19 2.23872 16.7613 0 14 0H5C2.23872 0 0 2.23872 0 5V9C0 10.4938 0.656313 11.8361 1.6935 12.7509C2.10768 13.1163 2.73961 13.0767 3.10494 12.6625C3.47028 12.2483 3.43068 11.6164 3.0165 11.2511C2.39169 10.6999 2 9.89621 2 9V5ZM7 11C7 9.34328 8.34328 8 10 8H14C14.5523 8 15 7.55228 15 7C15 6.44772 14.5523 6 14 6H10C7.23872 6 5 8.23872 5 11V15C5 17.7613 7.23872 20 10 20H19C21.7613 20 24 17.7613 24 15V11C24 9.50621 23.3437 8.16393 22.3065 7.24906C21.8923 6.88372 21.2604 6.92332 20.8951 7.3375C20.5297 7.75168 20.5693 8.38361 20.9835 8.74894C21.6083 9.30007 22 10.1038 22 11V15C22 16.6567 20.6567 18 19 18H10C8.34328 18 7 16.6567 7 15V11Z"
+      fill="#000"
+    />
+</svg>
+          <div id="toolTip" class="tool-tip">
+            copied
+          </div>
+          <input id="copyText" style="opacity: 0;" type="text" class="tool-tip" />
+        </button>
+      </div>
+      <div class="d-flex flex-row ml-a">
+        <button id="workButton" class="icon-wrapper">
+          <a href="/work">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="26" viewBox="0 0 32 32">
+  <path id="images" fill="var(--primary)" class="change-fill" d="M27.4 9.872l-3.274-9.016c-0.242-0.666-0.952-1.019-1.582-0.787l-21.757 7.941c-0.63 0.23-0.949 0.955-0.706 1.621l3.45 9.506v-5.093c0-2.301 1.837-4.171 4.096-4.171h5.749l6.856-4.813 3.966 4.813h3.202zM30.781 12.8h-23.154c-0.672 0-1.219 0.534-1.219 1.243v15.072c0.002 0.71 0.549 1.285 1.219 1.285h23.154c0.672 0 1.219-0.574 1.219-1.285v-15.072c0-0.709-0.547-1.243-1.219-1.243zM28.8 27.2h-19.2v-3.2l3.174-6.429 4.429 5.498 4.157-4.259 5.341-1.928 2.099 5.518v4.8z"></path>
+</svg>
+            <span class="sr-only">Work</span>
+          </a>
+          <div id="toolTip" class="tool-tip">
+            Work
+          </div>
+          <input id="copyText" style="opacity: 0;" type="text" class="tool-tip" />
+        </button>
+        <button id="articlesButton" class="icon-wrapper">
+          <a href="/articles">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 32 32" fill="none">
+  <path id="book" fill="var(--primary)" class="change-fill" d="M27.2 9.52v16.562c0 0.835-0.723 1.234-1.6 1.856-0.704 0.501-1.6-0.12-1.6-0.939 0 0 0-15.848 0-16.182 0-0.338-0.118-0.659-0.502-0.856s-12.381-6.504-12.381-6.504c-0.194-0.072-1.038-0.605-2.165-0.026-1.070 0.55-1.653 1.149-1.802 1.43l13.088 7.171c0.347 0.182 0.562 0.464 0.562 0.826v17.283c0 0.368-0.227 0.762-0.59 0.936-0.166 0.083-0.35 0.123-0.533 0.123-0.216 0-0.434-0.053-0.618-0.166-0.344-0.21-12.438-7.626-13.237-8.107-0.384-0.23-0.834-0.702-0.843-1.053l-0.179-16.458c0-0.317-0.037-0.875 0.462-1.651 1.115-1.734 5.006-3.707 6.976-2.685l14.398 7.288c0.347 0.179 0.563 0.538 0.563 1.152z"></path>
+</svg>
+            <span class="sr-only">Articles</span>
+          </a>
+          <div id="toolTip" class="tool-tip">
+            Articles
+          </div>
+          <input id="copyText" style="opacity: 0;" type="text" class="tool-tip" />
+        </button>
+        <button id="themeColorButton" class="icon-wrapper">
+          <div id="sunRays" class="sun-rays"></div>
+          <div id="moonOrSun" class="moon-or-sun"></div>
+          <div id="moonMask" class="moon-mask"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="/js/speedlify-score.js"></script>
+
+
+<script src="/js/toggleLogos.js"></script>
+
+
+<script src="/js/toggleColors.js"></script>
+
+
+<script src="/js/copyUrl.js"></script>
+
+        
+
+<section class="section narrow">
+
+    <section id="articleHero" class="section narrow">
+  <div class="article-hero">
+    <header class="article-header">
+      <h1 class="article-hero-heading">Refactoring UI: A Comprehensive Guide to Better Visual Design</h1>
+      <div class="article-hero-subtitle">
+        <div class="article-meta">
+          
+
+
+    
+            <a href="/authors/eric-thayer/" class="article-author-link">
+                
+                    <div class="article-author-avatar">
+                        <img src="/images/content-img/1x1/img-1x1-avatar.jpg" />
+                    </div>
+                
+                
+                <strong>Eric Thayer</strong>
+                
+                <span class="hide-on-mobile">,&nbsp;</span>
+            </a>
+    
+
+
+
+<script src="/js/collapseAuthors.js"></script>
+          June 2, 2023
+          • 4 min read
+        </div>
+      </div>
+    </header>
+    
+    <figure class="article-hero-image" id="ArticleImage__Hero">
+      <img src="/images/content-img/16x9/img-16x9-refactoring-ui-guide.jpg">
+      
+      <figcaption><a href=""></a></figcaption>
+    </figure>
+  </div>
+</section>
+
+    <aside id="progressBar" class="aside-container" style="display: none;">
+    <div class="aside-align">
+      <div>
+        <div class="overlap-container">
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-container" tabIndex={-1}>
+        <div class="track-line" aria-hidden="true">
+            <div id="progressIndicator" class="progress-line"></div>
+        </div>
+    </div>
+</aside>
+
+
+    <article  id="articleContent" class="post-content" style="position:relative;">
+        <p>Refactoring UI is a website that provides a comprehensive guide to better visual design. It is run by two experienced designers, Adam Wathan and Steve Schoger, who have years of experience designing interfaces for software products. The website offers a wealth of knowledge and practical tips that you can easily apply to your projects.</p>
+<p>Designing a user interface can be a daunting task, especially for those who are not experienced in the field. However, with Refactoring UI, designing a visually-pleasing and easy-to-use interface is made simpler. The website offers a variety of techniques for improving the visual design of your user interface, such as color theory, typography, layout, and more.</p>
+<p>The following are some of the best tips to follow when using Refactoring UI:</p>
+<h2 id="1-keep-it-simple-and-consistent">1. Keep it Simple and Consistent</h2>
+<p>One of the most important principles of good design is simplicity. Users need to be able to navigate through your interface with ease. Keep your designs simple and avoid clutter. Use consistent visual elements such as colors, typography, and spacing to create a cohesive design that is easy to understand and navigate.</p>
+<p>By keeping your design simple and consistent, you can help your users navigate through your interface with ease. Simple and consistent designs are not only easier to use, but also more aesthetically pleasing.</p>
+<h2 id="2-use-clear-and-readable-typography">2. Use Clear and Readable Typography</h2>
+<p>Typography is an essential element of design that can greatly impact the readability and user experience of your interface. Choose clear and readable fonts and use them consistently throughout your design. Pay attention to font size, spacing, and line height to ensure that your text is easy to read.</p>
+<p>The typography you choose can make or break your design. Using clear and readable fonts will help your users read your content with ease. Additionally, by using consistent typography throughout your design, you can create a cohesive and professional look.</p>
+<h2 id="3-balance-your-layout">3. Balance Your Layout</h2>
+<p>A balanced layout is essential to creating a visually pleasing design. Use the rule of thirds to create a balanced composition, and pay attention to the placement of your visual elements. Use white space to create a sense of breathing room and avoid overcrowding your design.</p>
+<p>When designing your interface, it is important to create a sense of balance. By using the rule of thirds, you can create a visually-pleasing composition. Additionally, by using white space, you can create a sense of breathing room that can help your users focus on the important elements of your design.</p>
+<h2 id="4-use-color-effectively">4. Use Color Effectively</h2>
+<p>Color is a powerful tool that can evoke emotions and influence user behavior. Use color effectively to highlight important elements, create visual hierarchy, and convey meaning. Choose a color palette that complements your brand and use it consistently throughout your design.</p>
+<p>By using color effectively, you can create a visually-pleasing and emotionally-engaging experience for your users. Additionally, by using a consistent color palette throughout your design, you can create a cohesive and professional look.</p>
+<h2 id="5-pay-attention-to-detail">5. Pay Attention to Detail</h2>
+<p>Small details can make a big difference in the overall quality of your design. Pay attention to details such as alignment, spacing, and consistency to create a polished and professional design. Use grids and guides to ensure that your design elements are aligned and spaced correctly.</p>
+<p>When designing an interface, it is important to pay attention to the details. By ensuring that your design elements are aligned and spaced correctly, you can create a polished and professional look. Additionally, by using grids and guides, you can make sure that your design is consistent and visually-pleasing.</p>
+<h2 id="6-prioritize-mobile-responsiveness">6. Prioritize Mobile Responsiveness</h2>
+<p>In today&rsquo;s world, more and more users are accessing websites and applications through mobile devices. Therefore, it is essential to prioritize mobile responsiveness when designing your user interface. Make sure that your design is optimized for mobile devices, and that it is easy to navigate with a touch screen.</p>
+<p>By prioritizing mobile responsiveness, you can ensure that your users can access your interface from any device, which will increase your reach and improve your user experience.</p>
+<h2 id="7-test-your-design">7. Test Your Design</h2>
+<p>Before launching your user interface, it is essential to test your design to ensure that it is user-friendly and visually appealing. Conduct user testing to get feedback from your target audience and identify areas that need improvement.</p>
+<p>By testing your design, you can identify any issues before launching your interface. This can save you time, money, and resources in the long run.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Refactoring UI is an excellent resource for anyone looking to improve their visual design skills. By following the above tips, you can create beautiful, functional, and user-friendly interfaces that will delight your users and help your product succeed. With Refactoring UI, designing a visually-pleasing interface has never been easier.</p>
+
+    </article>
+
+
+    
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+<section id="articleNext" class="section narrow">
+    <h3 class="footer-next-heading">More articles from Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</h3>
+    <div class="footer-spacer"></div>
+    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
+        <div class="post-row">
+            
+                <a href="/articles/figma-vs-sketch/" class="article-link"
+                 id="article-link-bigger">
+                    <div>
+                        <div class="image-container">
+                            <img src="https://ux360.design/wp-content/uploads/2019/06/figma-vs-sketch.png" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Figma vs. Sketch for Prototyping
+                            </h2>
+                            <p class="article-excerpt">
+                                A look a the differences between these leading prototyping applications.
+                            </p>
+                            <div class="article-metadata">
+                                May 27, 2023 · 4 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="/articles/building-vr-ui-with-unity-ui-toolkit/" class="article-link"
+                >
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/content-img/16x9/img-16x9-cosmos-in-development-course-launcher-scene-01.jpg" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Building UI for VR with Unity
+                            </h2>
+                            <p class="article-excerpt">
+                                The challenges of designing virtual reality user interfaces.
+                            </p>
+                            <div class="article-metadata">
+                                May 22, 2023 · 3 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+</section>
+
+</section>
+
+
+        
+        <div class="footer-gradient"></div>
+    <div class="section narrow">
+      <div class="footer-hr"></div>
+      <div class="footer-container">
+        <div class="footer-text">
+          © 2023 - v6
+        </div>
+        <div class="d-flex justify-content-center mx-auto flex-grow-1">
+          <div class="social-icon-outer">
+    <div class="social-icon-container">
+        
+            
+                
+                <a href="//codepen.io/ericthayer/"><svg
+class="social-icon-image"
+width="13"
+height="13"
+viewBox="0 0 32 32"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path d="M3.872 20.864l10.752 7.2v-6.432l-5.952-3.968zM2.752 18.304l3.456-2.304-3.456-2.304v4.608zM17.376 28.064l10.752-7.2-4.8-3.2-5.952 3.968v6.432zM16 19.264l4.864-3.264-4.864-3.264-4.864 3.264zM8.672 14.336l5.952-3.968v-6.432l-10.752 7.2zM25.792 16l3.456 2.304v-4.608zM23.328 14.336l4.8-3.2-10.752-7.2v6.432zM32 11.136v9.728q0 0.736-0.608 1.152l-14.624 9.76q-0.384 0.224-0.768 0.224t-0.768-0.224l-14.624-9.76q-0.608-0.416-0.608-1.152v-9.728q0-0.736 0.608-1.152l14.624-9.76q0.384-0.224 0.768-0.224t0.768 0.224l14.624 9.76q0.608 0.416 0.608 1.152z"></path>
+</svg>
+</a>
+                <span class="hidden">//codepen.io/ericthayer/</span>
+            
+        
+            
+                
+                <a href="//dribbble.com/ethayer/"><svg
+class="social-icon-image"
+width="14"
+height="14"
+viewBox="0 0 14 14"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+  d="M7 0C3.14016 0 0 3.14019 0 7C0 10.8598 3.14016 14 7 14C10.8598 14 14 10.8598 14 7C14 3.14019 10.8598 0 7 0ZM11.5616 3.30136C12.3475 4.26869 12.8313 5.48966 12.8715 6.82062C11.4158 6.51926 10.0977 6.55462 8.93404 6.78278C8.72334 6.29005 8.50523 5.82062 8.28509 5.37697C9.55235 4.83104 10.6556 4.13375 11.5616 3.30136ZM10.7731 2.49993C9.87371 3.32085 8.83147 3.92867 7.76427 4.37742C6.98097 2.945 6.23154 1.86633 5.775 1.25333C6.17032 1.16911 6.57995 1.12393 7 1.12393C8.4354 1.12393 9.75151 1.64199 10.7731 2.49993ZM4.63984 1.62041C4.98459 2.06714 5.80572 3.18567 6.68777 4.77709C4.47095 5.49933 2.31992 5.62101 1.28629 5.63232C1.71713 3.83253 2.97749 2.35262 4.63984 1.62041ZM1.13006 6.7591C1.14115 6.7591 1.15187 6.75918 1.16318 6.75918C1.8774 6.75918 3.18594 6.71115 4.72646 6.43024C5.60536 6.26997 6.43879 6.05425 7.22081 5.7869C7.42439 6.19264 7.62677 6.62064 7.82301 7.06923C6.72801 7.42177 5.8046 7.92904 5.07315 8.43271C3.84658 9.27739 2.9873 10.2145 2.51811 10.7939C1.64939 9.76944 1.12392 8.4453 1.12392 7C1.12392 6.91923 1.12677 6.83913 1.13006 6.7591ZM3.328 11.5826C3.73194 11.074 4.55412 10.1482 5.74346 9.33591C6.55171 8.78383 7.3879 8.37367 8.24875 8.10445C8.74822 9.39907 9.17464 10.8295 9.42887 12.3484C8.68798 12.6862 7.86602 12.8761 7 12.8761C5.61143 12.8761 4.33474 12.3909 3.328 11.5826ZM10.4629 11.7432C10.2009 10.3483 9.8101 9.03664 9.35836 7.83793C10.4695 7.65046 11.618 7.68912 12.7975 7.95407C12.5431 9.50435 11.6805 10.8519 10.4629 11.7432Z"
+  fill="#73737D"
+/>
+</svg></a>
+                <span class="hidden">//dribbble.com/ethayer/</span>
+            
+        
+            
+                
+                <a href="mailto:ethayer.design@gmail.com"><svg
+aria-labelledby="envelope-title envelope-desc"
+class="social-icon-image"
+height="14"
+fill="none"
+width="14"
+viewBox="0 0 1024 1024" 
+xmlns="http://www.w3.org/2000/svg"
+>
+  <title id="envelope-title">Envelope</title>
+  <desc id="envelope-desc">an envelope symbol</desc>
+  <path d="M1024 405.504v453.632q0 37.888-26.624 64.512t-64.512 27.648h-841.728q-36.864 0-64.512-27.648t-26.624-64.512v-453.632q25.6 28.672 57.344 50.176 206.848 140.288 284.672 196.608 32.768 24.576 52.224 37.888t54.272 27.648 62.464 13.312h2.048q28.672 0 62.464-13.312t54.272-27.648 52.224-37.888q97.28-69.632 284.672-196.608 32.768-22.528 57.344-50.176zM1024 237.568q0 45.056-27.648 86.016t-69.632 70.656q-215.040 149.504-268.288 185.344-5.12 4.096-23.552 17.408t-30.72 22.528-29.696 18.432-33.792 15.36-27.648 5.12h-2.048q-12.288 0-27.648-5.12t-33.792-15.36-29.696-18.432-30.72-22.528-23.552-17.408q-52.224-35.84-150.528-103.424t-116.736-81.92q-35.84-23.552-66.56-65.536t-31.744-78.848q0-44.032 23.552-73.728t67.584-29.696h841.728q36.864 0 63.488 26.624t27.648 64.512z"></path>
+</svg></a>
+                <span class="hidden">mailto:ethayer.design@gmail.com</span>
+            
+        
+            
+                
+                <a href="//github.com/ericthayer/"><svg
+class="social-icon-image"
+width="14"
+height="14"
+viewBox="0 0 14 14"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+  fillRule="evenodd"
+  clipRule="evenodd"
+  d="M7 0C3.1325 0 0 3.21173 0 7.17706C0 10.3529 2.00375 13.0353 4.78625 13.9863C5.13625 14.0491 5.2675 13.8338 5.2675 13.6454C5.2675 13.4749 5.25875 12.9097 5.25875 12.3087C3.5 12.6406 3.045 11.8691 2.905 11.4653C2.82625 11.259 2.485 10.622 2.1875 10.4516C1.9425 10.317 1.5925 9.98508 2.17875 9.97611C2.73 9.96714 3.12375 10.4964 3.255 10.7118C3.885 11.7973 4.89125 11.4923 5.29375 11.3039C5.355 10.8374 5.53875 10.5234 5.74 10.3439C4.1825 10.1645 2.555 9.54549 2.555 6.80026C2.555 6.01976 2.82625 5.37382 3.2725 4.87143C3.2025 4.692 2.9575 3.95635 3.3425 2.96951C3.3425 2.96951 3.92875 2.78111 5.2675 3.70516C5.8275 3.54367 6.4225 3.46293 7.0175 3.46293C7.6125 3.46293 8.2075 3.54367 8.7675 3.70516C10.1063 2.77214 10.6925 2.96951 10.6925 2.96951C11.0775 3.95635 10.8325 4.692 10.7625 4.87143C11.2087 5.37382 11.48 6.01079 11.48 6.80026C11.48 9.55446 9.84375 10.1645 8.28625 10.3439C8.54 10.5682 8.75875 10.9988 8.75875 11.6717C8.75875 12.6316 8.75 13.4032 8.75 13.6454C8.75 13.8338 8.88125 14.0581 9.23125 13.9863C11.9963 13.0353 14 10.3439 14 7.17706C14 3.21173 10.8675 0 7 0Z"
+  fill="#73737D"
+/>
+</svg></a>
+                <span class="hidden">//github.com/ericthayer/</span>
+            
+        
+            
+                
+                <a href="//linkedin.com/in/ethayerdesign/"><svg
+class="social-icon-image"
+width="14"
+height="14"
+viewBox="0 0 14 14"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+  fillRule="evenodd"
+  clipRule="evenodd"
+  d="M3.59615 13.125H0.871552V4.36523H3.59615V13.125ZM2.24847 3.16406C1.81878 3.16406 1.44769 3.00781 1.13519 2.69531C0.822692 2.38281 0.666443 2.01171 0.666443 1.58203C0.666443 1.15234 0.822692 0.781248 1.13519 0.468749C1.44769 0.156249 1.81878 0 2.24847 0C2.67816 0 3.04925 0.156249 3.36175 0.468749C3.67425 0.781248 3.8305 1.15234 3.8305 1.58203C3.8305 2.01171 3.67425 2.38281 3.36175 2.69531C3.04925 3.00781 2.67816 3.16406 2.24847 3.16406ZM13.7915 13.125H11.0669V8.84765C11.0669 8.14452 11.0083 7.63671 10.8911 7.32421C10.6763 6.79687 10.2563 6.5332 9.63134 6.5332C9.00634 6.5332 8.56689 6.76757 8.31298 7.23632C8.11767 7.58788 8.02001 8.10546 8.02001 8.78905V13.125H5.32471V4.36523H7.93212V5.5664H7.96142C8.15673 5.17578 8.46923 4.85351 8.89892 4.59961C9.36767 4.28711 9.91454 4.13086 10.5395 4.13086C11.8091 4.13086 12.6977 4.53125 13.2055 5.33203C13.5962 5.97656 13.7915 6.97265 13.7915 8.3203V13.125Z"
+  fill="#73737D"
+/>
+</svg></a>
+                <span class="hidden">//linkedin.com/in/ethayerdesign/</span>
+            
+        
+    </div>
+</div>
+        </div>
+        <div class="d-flex justify-content-end"><span>made with</span> <a class='mx-sm' href='#0'>Hugo</a> <span>&amp;<span> <a class='ml-0' href='#0'>Netlify</a></div>
+        
+    </div>
+</div>
+
+    </div>
+
+    
+    <script src="/js/prism.js"></script>
+</body>
+
+</html>

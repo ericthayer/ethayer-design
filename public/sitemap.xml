@@ -3,29 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-05-22T14:06:51-06:00</lastmod>
+    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
+  </url><url>
+    <loc>/articles/</loc>
+    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2023-05-22T14:06:51-06:00</lastmod>
-  </url><url>
-    <loc>/post/building-vr-ui-with-unity-ui-toolkit/</loc>
-    <lastmod>2023-05-22T14:06:51-06:00</lastmod>
+    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
   </url><url>
     <loc>/authors/eric-thayer/</loc>
+    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
+  </url><url>
+    <loc>/articles/refactoring-ui-guide/</loc>
+    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
+  </url><url>
+    <loc>/articles/figma-vs-sketch/</loc>
+    <lastmod>2023-05-27T17:08:36-06:00</lastmod>
+  </url><url>
+    <loc>/work/</loc>
     <lastmod>2023-05-22T14:06:51-06:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>/articles/building-vr-ui-with-unity-ui-toolkit/</loc>
     <lastmod>2023-05-22T14:06:51-06:00</lastmod>
   </url><url>
-    <loc>/post/container-queries/</loc>
+    <loc>/work/building-vr-ui-with-unity-ui-toolkit/</loc>
+    <lastmod>2023-05-22T14:06:51-06:00</lastmod>
+  </url><url>
+    <loc>/articles/container-queries/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/design-sprint-process/</loc>
+    <loc>/work/container-queries/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/ui-ux-research-process/</loc>
-    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+    <loc>/articles/design-sprint-process/</loc>
+    <lastmod>2021-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/work/design-sprint-process/</loc>
+    <lastmod>2021-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/articles/sketch-is-my-prototype-tool-of-choice/</loc>
+    <lastmod>2021-05-22T20:14:50-06:00</lastmod>
+  </url><url>
+    <loc>/articles/ui-ux-research-process/</loc>
+    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
+  </url><url>
+    <loc>/_404/</loc>
   </url>
 </urlset>

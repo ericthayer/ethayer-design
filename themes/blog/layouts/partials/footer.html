@@ -3,9 +3,14 @@
       <div class="footer-hr"></div>
       <div class="footer-container">
         <div class="footer-text">
-          © {{ dateFormat "2006" now }}
+          © {{ dateFormat "2006" now }} - {{ .Site.Params.versionTag }}
         </div>
-        <div class="mx-auto flex-grow-1">{{ .Site.Params.versionTag }} {{ .Site.Copyright | safeHTML }}</div>
-        {{ partial "social-links/social-links.html" . }}
+        <div class="d-flex justify-content-center mx-auto flex-grow-1">
+          {{ partial "social-links/social-links.html" . }}
+        </div>
+        <div class="d-flex justify-content-end">{{ .Site.Params.devCredits | safeHTML }}</div>
+        <!-- <div class="d-flex justify-content-end">
+          <speedlify-score speedlify-url="http://10.0.0.153/node_modules/speedlify-score" url="https://ethayer.design/"></speedlify-score>
+        </div> -->
     </div>
 </div>

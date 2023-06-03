@@ -1,4 +1,13 @@
 {{ define "main" }}
+{{ if .Params.article }}    
   {{ partial "articles/hero.html" . }}
+  {{ range where .Site.Pages "Params.article" true }}
   {{ partial "articles/articles.html" . }}
+  {{ end }}
+  {{ else if .Params.work }}
+  {{ partial "work/hero.html" . }}
+    {{ range where .Site.Pages "Params.work" true }}
+      {{ partial "work/work.html" . }}
+    {{ end }}
+  {{ end }}
 {{ end }}

@@ -7,7 +7,7 @@ $desktop: 1070px;
 $desktop_medium: 1280px;
 $desktop_large: 1440px;
 
-body {
+:where(html) {
   /*FONTS*/
   --serif: "Ultra", Georgia, Serif;
   --sanserif: "SF Pro Display", "-apple-system", "BlinkMacSystemFont",
@@ -16,7 +16,7 @@ body {
   --monospace: "Operator Mono", Consolas, Menlo, Monaco, source-code-pro,
     Courier New, monospace;
   --headline: "Barlow Semi Condensed", var(--sanserif);
-  
+
   --article-hero-h1: 2.5rem;
 
   /*COLOR MODE TRANSITION*/
@@ -64,6 +64,64 @@ body {
   --dark-errorBackground: rgba(238, 86, 91, 0.1);
   --dark-horizontalRule: rgba(255, 255, 255, 0.15);
   --dark-inputBackground: rgba(255, 255, 255, 0.07);
+
+  --action-background: #515151;
+  --action-background--active: var(--color-brand-green-dark);
+  --action-background--disabled: var(--color-grey-7);
+  --action-background--focus: var(--color-grey-6);
+  --action-background--selected: var(--color-grey-8);
+
+  --border-radius-0: 5px;
+  --border-radius-1: 10px;
+  --border-radius-2: 15px;
+  --border-radius-3: 20px;
+  --border-radius-4: 25px;
+
+  --color-grey: #383838;
+  --color-grey-light: #7b7b7b;
+  --color-grey-medium: #555555;
+  --color-grey-dark: #191919;
+
+  --color-grey-1: #f0f0f0;
+  --color-grey-2: #ebebeb;
+  --color-grey-3: #cbcbcb;
+  --color-grey-4: #a9a9a9;
+  --color-grey-5: #8e8e8e;
+  --color-grey-5-alpha: rgba(142, 142, 142, 0);
+  --color-grey-6: #6d6d6d;
+  --color-grey-6-alpha: rgb(109, 109, 109, 0);
+  --color-grey-7: #444444;
+  --color-grey-8: #3d3d3d;
+  --color-grey-9: #2e2e2e;
+
+  --color-label: var(--color-grey-4);
+
+  --color-white: #f3f3f3;
+  --color-error: #b72437;
+  --color-link: #0267a1;
+
+  --copy-max-width: 640px;
+
+  --font-body: var(--font-inter-medium);
+  --font-heading: var(--font-inter-semibold);
+  --font-button-primary: var(--font-inter-bold);
+
+  --input-padding-y: var(--size-0);
+  --input-padding-x: var(--size-0);
+  --input-background-color: var(--color-brand-grey);
+  --input-border-radius: var(--size-0);
+
+  --size-0: 6px;
+  --size-1: 12px;
+  --size-2: 16px;
+  --size-3: 24px;
+  --size-4: 32px;
+  --size-5: 44px;
+
+  --text-shadow-dark--50: 3px 3px 5px rgba(0, 0, 0, 0.35);
+
+  --window-border-color: var(--color-brand-grey);
+  --window-border-width: 1px;
 
   /*PRISM*/
   --token: #fff;

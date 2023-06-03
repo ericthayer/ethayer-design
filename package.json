@@ -6,7 +6,9 @@
   "author": "Eric Thayer",
   "private": false,
   "dependencies": {
-    "postcss-cli": "^10.1.0"
+    "autoprefixer": "^9.1.5",
+    "postcss-cli": "^10.1.0",
+    "speedlify-score": "^3.0.0"
   },
   "main": "index.js",
   "scripts": {
@@ -16,7 +18,6 @@
     "type": "git",
     "url": "git+https://github.com/ericthayer/ethayer-design.git"
   },
-
   "bugs": {
     "url": "https://github.com/ericthayer/ethayer-design/issues"
   },

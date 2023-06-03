@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</title>
+    <link>/articles/</link>
+    <description>Recent content on Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jun 2023 21:46:09 -0600</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refactoring UI: A Comprehensive Guide to Better Visual Design</title>
+      <link>/articles/refactoring-ui-guide/</link>
+      <pubDate>Fri, 02 Jun 2023 21:46:09 -0600</pubDate>
+      
+      <guid>/articles/refactoring-ui-guide/</guid>
+      <description>Refactoring UI is a website that provides a comprehensive guide to better visual design. It is run by two experienced designers, Adam Wathan and Steve Schoger, who have years of experience designing interfaces for software products. The website offers a wealth of knowledge and practical tips that you can easily apply to your projects.
+Designing a user interface can be a daunting task, especially for those who are not experienced in the field.</description>
+    </item>
+    
+    <item>
+      <title>Figma vs. Sketch for Prototyping</title>
+      <link>/articles/figma-vs-sketch/</link>
+      <pubDate>Sat, 27 May 2023 17:08:36 -0600</pubDate>
+      
+      <guid>/articles/figma-vs-sketch/</guid>
+      <description>Which One is Right for You? When it comes to creating user interfaces and crafting UI designs for websites and web-based applications, there is no shortage of options when it comes to prototyping tools. Two of the most popular choices for digital product designers are Figma and Sketch. Although both offer powerful features and a vibrant community of users, each comes with different advantages and drawbacks that make them suitable for different kinds of projects.</description>
+    </item>
+    
+    <item>
+      <title>Building UI for VR with Unity</title>
+      <link>/articles/building-vr-ui-with-unity-ui-toolkit/</link>
+      <pubDate>Mon, 22 May 2023 14:06:51 -0600</pubDate>
+      
+      <guid>/articles/building-vr-ui-with-unity-ui-toolkit/</guid>
+      <description>Introduction Unity&amp;rsquo;s UI Toolkit is a powerful tool that allows developers to create user interfaces that are both intuitive and visually appealing. With a wide range of features and customization options, it&amp;rsquo;s no wonder that more and more developers are turning to this tool for their UI needs. In this blog post, we&amp;rsquo;ll explore the basics of creating user interfaces in Unity&amp;rsquo;s UI Toolkit and discuss some tips and tricks to help you get started.</description>
+    </item>
+    
+    <item>
+      <title>Container Query State of Mind</title>
+      <link>/articles/container-queries/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/container-queries/</guid>
+      <description>Front-end development has come a long way in recent years. With responsive design and mobile-first approaches, developers have been able to design and develop websites that work well on all devices. However, as the number of device sizes and resolutions continues to grow, responsive design alone may not be enough. This is where container queries come in.
+So, what exactly are container queries? Container queries allow developers to apply CSS styles based on the size of a container, rather than the size of the viewport.</description>
+    </item>
+    
+    <item>
+      <title>Facilitating a Design Sprint</title>
+      <link>/articles/design-sprint-process/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/design-sprint-process/</guid>
+      <description>The Design Sprint Process: Facilitating Innovation Innovation is key to a successful business. In today&amp;rsquo;s rapidly changing landscape, it is essential to stay ahead of the curve and constantly come up with new and improved products and services. However, innovation is not always easy. It requires creativity, collaboration, and a willingness to take risks. This is where the design sprint process comes in.
+Introduction The &amp;ldquo;design sprint&amp;rdquo; process is a five-day framework developed by Google Ventures to help teams design and test product ideas.</description>
+    </item>
+    
+    <item>
+      <title>Using Sketch for Interactive Prototypes</title>
+      <link>/articles/sketch-is-my-prototype-tool-of-choice/</link>
+      <pubDate>Sat, 22 May 2021 20:14:50 -0600</pubDate>
+      
+      <guid>/articles/sketch-is-my-prototype-tool-of-choice/</guid>
+      <description>UI design is an important part of app and web development. Creating prototypes is a crucial aspect of the design process because they help designers test how users will interact with the product. Sketch is a popular design tool that enables designers to create high-quality prototypes. In this blog post, we will explain how to create prototypes in Sketch for UI design.
+Designing Elements for Prototyping Before creating prototypes, designers must design all the elements that will be included, such as buttons, forms, icons, and other UI components.</description>
+    </item>
+    
+    <item>
+      <title>Understanding the UI/UX Research Process</title>
+      <link>/articles/ui-ux-research-process/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/ui-ux-research-process/</guid>
+      <description>User Interface (UI) and User Experience (UX) are two crucial components of any software development project. UI refers to the visual aspect of an application, which includes the design, layout, and functionality of the user interface. UX, on the other hand, is all about the user&amp;rsquo;s experience while interacting with the application.
+The UI and UX research process involves a series of steps aimed at understanding user needs, preferences, and behavior.</description>
+    </item>
+    
+  </channel>
+</rss>
