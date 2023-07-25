@@ -6,7 +6,17 @@
     <description>Recent content on Eric Thayer is a UI/UX Designer and Front-end Developer from Denver Colorado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jun 2023 21:46:09 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 21:59:35 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Figma, Sketch, or Adobe XD for Prototyping: Which One is Right for You?</title>
+      <link>/work/prototype/</link>
+      <pubDate>Wed, 12 Jul 2023 21:59:35 -0600</pubDate>
+      
+      <guid>/work/prototype/</guid>
+      <description>When it comes to creating user interfaces and crafting UI designs for websites and web-based applications, there is no shortage of options when it comes to prototyping tools. Two of the most popular choices for digital product designers are Figma and Sketch. Although both offer powerful features and a vibrant community of users, each comes with different advantages and drawbacks that make them suitable for different kinds of projects.
+At first glance, Figma and Sketch appear quite similar.</description>
+    </item>
+    
     <item>
       <title>Refactoring UI: A Comprehensive Guide to Better Visual Design</title>
       <link>/articles/refactoring-ui-guide/</link>
@@ -50,16 +60,6 @@ Designing a user interface can be a daunting task, especially for those who are 
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/articles/container-queries/</guid>
-      <description>Front-end development has come a long way in recent years. With responsive design and mobile-first approaches, developers have been able to design and develop websites that work well on all devices. However, as the number of device sizes and resolutions continues to grow, responsive design alone may not be enough. This is where container queries come in.
-So, what exactly are container queries? Container queries allow developers to apply CSS styles based on the size of a container, rather than the size of the viewport.</description>
-    </item>
-    
-    <item>
-      <title>Container Query State of Mind</title>
-      <link>/work/container-queries/</link>
-      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/work/container-queries/</guid>
       <description>Front-end development has come a long way in recent years. With responsive design and mobile-first approaches, developers have been able to design and develop websites that work well on all devices. However, as the number of device sizes and resolutions continues to grow, responsive design alone may not be enough. This is where container queries come in.
 So, what exactly are container queries? Container queries allow developers to apply CSS styles based on the size of a container, rather than the size of the viewport.</description>
     </item>

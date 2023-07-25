@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
+    <lastmod>2023-07-12T21:59:35-06:00</lastmod>
   </url><url>
-    <loc>/articles/</loc>
-    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
+    <loc>/work/</loc>
+    <lastmod>2023-07-12T21:59:35-06:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2023-06-02T21:46:09-06:00</lastmod>
+    <lastmod>2023-07-12T21:59:35-06:00</lastmod>
   </url><url>
     <loc>/authors/eric-thayer/</loc>
+    <lastmod>2023-07-12T21:59:35-06:00</lastmod>
+  </url><url>
+    <loc>/work/prototype/</loc>
+    <lastmod>2023-07-12T21:59:35-06:00</lastmod>
+  </url><url>
+    <loc>/articles/</loc>
     <lastmod>2023-06-02T21:46:09-06:00</lastmod>
   </url><url>
     <loc>/articles/refactoring-ui-guide/</loc>
@@ -20,9 +26,6 @@
     <loc>/articles/figma-vs-sketch/</loc>
     <lastmod>2023-05-27T17:08:36-06:00</lastmod>
   </url><url>
-    <loc>/work/</loc>
-    <lastmod>2023-05-22T14:06:51-06:00</lastmod>
-  </url><url>
     <loc>/articles/building-vr-ui-with-unity-ui-toolkit/</loc>
     <lastmod>2023-05-22T14:06:51-06:00</lastmod>
   </url><url>
@@ -30,9 +33,6 @@
     <lastmod>2023-05-22T14:06:51-06:00</lastmod>
   </url><url>
     <loc>/articles/container-queries/</loc>
-    <lastmod>2021-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/work/container-queries/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/articles/design-sprint-process/</loc>

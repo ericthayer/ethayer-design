@@ -1,8 +1,6 @@
 /****************************************HEADER****************************************/
 
 .subheading-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -29,8 +27,6 @@
 }
 
 .grid-controls-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -77,8 +73,6 @@
 
 .grid-button {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -95,7 +89,7 @@
   transition: background 0.25s;
 
   &:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 15px;
   }
 
   &:hover {
@@ -309,8 +303,6 @@
 }
 
 .image-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -425,8 +417,6 @@
 }
 
 .post-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -446,8 +436,6 @@
 }
 
 .post-row-alt {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;

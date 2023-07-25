@@ -12,9 +12,9 @@ paginate = 6
 
 [social]
   email = "mailto:ethayer.design@gmail.com"
-  github = "//github.com/ericthayer/"
   linkedin = "//linkedin.com/in/ethayerdesign/"
   codepen = "//codepen.io/ericthayer/"
+  github = "//github.com/ericthayer/"
   dribbble = "//dribbble.com/ethayer/"
 
 [taxonomies]

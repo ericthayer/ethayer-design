@@ -1,48 +1,46 @@
-.pagination{
-    z-index: 100;
-    margin: 0;
-    margin-top: 95px;
+.pagination {
+  display: flex;
+  margin-top: 95px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  justify-content: center;
+  z-index: 100;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: var(--primary);
+  }
+
+  .page-item {
+    display: block;
+    width: auto;
+    height: auto;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    text-align: center;
 
-    &:hover{
-        cursor: pointer;
+    .page-link {
+      display: block;
+      color: var(--grey);
+      min-width: 6rem;
     }
 
-    a:hover{
-        color: var(--primary);
-    }
-    
-    .page-item{
-        display: block;
-        width: auto;
-        height: auto;
-        padding: 0;
-
-        .page-link{
-            display: block;
-            color: var(--grey);
-            min-width: 6rem;
-        }
-
-        .page-next, .page-prev{
-            color: var(--primary);
-        }
-
-
-        &::before{
-            display: none;
-        }
+    .page-next,
+    .page-prev {
+      color: var(--primary);
     }
 
-    .active{
-        .page-link{
-            color: var(--primary);
-        }
+    &::before {
+      display: none;
     }
+  }
+
+  .active {
+    .page-link {
+      color: var(--primary);
+    }
+  }
 }
