@@ -8,7 +8,7 @@ assetDir = "static"
 [params]
   author = "Eric Thayer"
   description = "I'm a freelance consultant with a passion for building design systems and inclusive components with other like-minded people."
-  versionTag = "5.4.9"
+  versionTag = "6.0.0"
   repoURL = "https://github.com/ericthayer/ethayer-design"
 
 # [[menu.main]]
@@ -26,10 +26,10 @@ assetDir = "static"
 #   url = "/contact"
 #   weight = 4
 
-# [[menu.main]]
-#   name = "Articles"
-#   url = "/articles"
-#   weight = 5
+[[menu.main]]
+  name = "Articles"
+  url = "https://articles.ethayer.design/"
+  weight = 5
 
 [[menu.main]]
   name = "Hire"
