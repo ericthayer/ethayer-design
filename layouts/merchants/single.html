@@ -1,0 +1,10 @@
+{{ partial "1_elements/head.html" . }}
+<!-- Header -->
+<header id="site-header" class="site-header {{ .Params.headerStyle }}" role="banner">      
+    {{ partial "2_components/menus/demo-menu.html" . }}
+</header>
+<main id="main" class="main-content main-content flex flex-grow-1 ai-center pt-pb-4 pr-pl-2" role="main">
+  {{ .Content }}
+</main>
+{{ partial "1_elements/wip-icon.html" . }}
+{{ partial "4_templates/footer.html" . }}
