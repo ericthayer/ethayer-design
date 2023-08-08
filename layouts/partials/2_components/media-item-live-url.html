@@ -1,0 +1,20 @@
+<figure class="media-item media-light">
+  <div class="media-wrap {{ .Params.projectMedia }} lazyload" style="box-shadow: var(--shadow-1);">
+    <iframe class="lazyload" src="{{ .Params.projectURL }}" data-src="{{ .Params.projectURL }}" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <time class="time-stamp" datetime="{{ .Params.projectDate }}">
+      <span class="sr-only">Successfully delivered</span>{{ .Params.projectDate }}</time>
+    <figcaption class="media-caption" aria-hidden="true">
+      <span class="project-title">{{ .Params.projectTitle }}</span>
+    </figcaption>
+  </div>
+  <noscript>
+    <div class="media-wrap portfolio">
+      <iframe src="{{ .Params.projectURL }}" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <time class="time-stamp" datetime="{{ .Params.projectDate }}">
+        <span class="sr-only">Successfully delivered</span>{{ .Params.projectDate }}</time>
+      <figcaption class="media-caption" aria-hidden="true">
+        <span class="project-title">{{ .Params.projectTitle }}</span>
+      </figcaption>
+    </div>
+  </noscript>
+</figure>

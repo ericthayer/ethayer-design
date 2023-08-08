@@ -3,8 +3,14 @@
 <header id="site-header" class="site-header {{ .Params.headerStyle }}" role="banner">      
     {{ partial "2_components/menus/demo-menu.html" . }}
 </header>
-<main id="main" class="main-content main-content flex flex-grow-1 ai-center pt-pb-4 pr-pl-2" role="main">
-  {{ .Content }}
+<main id="main" class="main-content main-content flex flex-grow-1 pt-3 pb-2" role="main">
+  <div class="container-fluid flex flex-d-col jc-center pr-pl-0">
+    <div class="demo container {{ .Params.projectType }}">
+      {{ partial "2_components/media-item-live-url.html" . }}
+      {{ partial "2_components/project-details.html" . }}
+    </div>
+      {{ .Content }}
+  </div>
 </main>
-{{ partial "1_elements/wip-icon.html" . }}
+<!-- {{ partial "1_elements/wip-icon.html" . }} -->
 {{ partial "4_templates/footer.html" . }}

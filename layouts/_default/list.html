@@ -1,9 +1,14 @@
-<!-- Main -->
-<main id="main" class="main-content" role="main">
+{{ partial "1_elements/head.html" . }}
+
+<!-- Header -->
+<header id="site-header" class="site-header {{ .Params.headerStyle }}" role="banner">
+
+  {{ partial "2_components/menus/main-menu.html" . }}
+
+</header>
+
+<main id="main" class="main-content main-content flex flex-grow-1 ai-center pt-pb-4 pr-pl-2" role="main">
   {{ .Content }}
-  {{ range .Pages }}
-    {{ .title }}
-  {{end}}
 </main>
 {{ partial "1_elements/wip-icon.html" . }}
 {{ partial "4_templates/footer.html" . }}

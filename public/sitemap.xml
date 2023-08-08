@@ -7,6 +7,12 @@
   </url>
   
   <url>
+    <loc>/merchants/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/prototypes/sublist/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -37,13 +43,13 @@
   </url>
   
   <url>
-    <loc>/hire-me/</loc>
+    <loc>/workbench/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/merchants/</loc>
+    <loc>/hire-me/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

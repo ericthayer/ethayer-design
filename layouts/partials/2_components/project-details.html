@@ -1,0 +1,25 @@
+<div class="details flex-grow-1">
+  <div class="wrap">
+    <div class="flex flex-d-col mb-1">
+      <div class="flex flex-d-col mb-1">
+        <!-- <small>project:</small> -->
+        <h2 class="mb-0">{{ .Params.projectTitle }}</h2>
+        <a href="#0">{{ .Params.projectURL }}</a>
+      </div>
+      <div class="flex flex-d-col mb-1">
+        <small>role:</small>
+        {{ range .Params.projectRole }}
+        <p class="mb-0">{{ . }}</p>
+        {{ end }}
+      </div>
+      <div class="flex flex-d-col">
+        <small>delivered:</small>
+        <p class="mb-0">{{ .Params.projectDate }}</p>
+      </div>
+    </div>
+    <div class="flex flex-d-col">
+      <!-- <small>details:</small> -->
+      <p class="mb-0">{{ .Params.projectDescription }}</p>
+    </div>
+  </div>
+</div>

@@ -6,7 +6,7 @@
   position: relative;
   // padding-bottom: 70% !important; // 4:3
   padding-bottom: 56.25%; // 16:9
-  transition: box-shadow .4s ease;
+  transition: box-shadow 0.4s ease;
   width: 100%;
   z-index: 1;
 
@@ -20,10 +20,12 @@
     width: 100%;
     top: 0;
     left: 0;
-    transition: .4s ease;
+    transition: 0.4s ease;
   }
 
   iframe {
+    background: #fff;
+
     &.card {
       @include card-media;
       position: absolute;
@@ -32,7 +34,7 @@
 
   &:hover,
   &:focus {
-    box-shadow: var(--shadow-2, 0 0 20px 0 #CCC);
+    box-shadow: var(--shadow-2, 0 0 20px 0 #ccc);
   }
 
   &.img {
@@ -45,9 +47,16 @@
 
   &.portfolio {
     @include slug-web-bg;
+    height: 100%;
+  }
+
+  &.preview {
+    @include slug-web-bg;
+    height: auto;
     overflow-y: overlay;
 
-    img {
+    img,
+    iframe {
       height: auto;
     }
   }
@@ -81,7 +90,8 @@
 }
 
 // Embedded Prototype
-.proto-embed {}
+.proto-embed {
+}
 
 .proto-sm {
   width: $break-375;
@@ -99,12 +109,11 @@
 }
 
 .portfolio {
-  
   &::-webkit-scrollbar-track {
     background: rgba(black, 0);
     border: none;
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background-color: rgba(white, 0);
     // border-radius: 20px;
@@ -123,7 +132,6 @@
 }
 
 .media-light .portfolio {
-
   // &:hover {
   //   &::-webkit-scrollbar-track {
   //     background: rgba(black, 0.4);

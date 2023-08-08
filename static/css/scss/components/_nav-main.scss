@@ -31,7 +31,7 @@
 .nav-main {
   @include flex;
   // @include ai-center;
-  // flex-basis: 100px;
+  flex-basis: 50px;
   margin-bottom: 0;
 
   ul {
@@ -161,7 +161,7 @@
   @include flex;
   @include jc-between;
 
-  @media (max-width: 399px) {
+  @media (max-width: 299px) {
     @include flex-d-col;    
   }
 }
