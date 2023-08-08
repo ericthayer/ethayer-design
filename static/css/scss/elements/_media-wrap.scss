@@ -98,17 +98,17 @@
 }
 
 /* Works on Firefox */
-.portfolio {
+.preview {
   scrollbar-width: thin;
   scrollbar-color: #333 rgba(black, 0.2);
 }
 
 /* Works on Chrome, Edge, and Safari */
-.portfolio::-webkit-scrollbar {
+.preview::-webkit-scrollbar {
   width: 12px;
 }
 
-.portfolio {
+.preview {
   &::-webkit-scrollbar-track {
     background: rgba(black, 0);
     border: none;

@@ -82,11 +82,11 @@
   a {
     // color: #FFF;
     @include fonts-loaded-KO;
-    font-size: .875rem;
+    font-size: 1.125em;
 
-    .fonts-loaded & {
-      font-size: 1.125rem;
-    }
+    // .fonts-loaded & {
+    //   font-size: 1.125rem;
+    // }
 
     letter-spacing: .05rem;
     @include flex-grow-1;

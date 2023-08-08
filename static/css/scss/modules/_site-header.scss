@@ -24,4 +24,10 @@
       flex-basis: auto;
     }
   }
+
+  @media (min-width: $break-768) {
+    &.small {
+      // height: 70px;
+    }
+  }
 }

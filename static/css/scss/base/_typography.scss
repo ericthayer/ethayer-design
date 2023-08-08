@@ -16,6 +16,8 @@
 //   font-weight: normal;
 // }
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 @font-face {
   font-family: "Knockout-29";
   src: url("fonts/Knockout-HTF29-JuniorLiteweight-subset.woff2") format("woff2"),
@@ -66,7 +68,9 @@ body {
 
 @mixin headline {
   color: currentColor;
-  @include fonts-loaded-KO;
+  // @include fonts-loaded-KO;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
   line-height: 1.1;
   @include mb-1;
   transition: opacity .2s;
@@ -95,8 +99,8 @@ p {
   -moz-osx-font-smoothing: greyscale;
   -webkit-font-smoothing: antialiased;
   color: #444;
-  font-size: 1.2em;
-  @include fonts-loaded-Roboto;
+  // font-family: $sans-serif;
+  font-size: 1.1em;  
   line-height: 1.576;
   max-width: 72ch;
 
@@ -111,6 +115,10 @@ p {
     // background-size: 100%;
   }
 
+}
+
+.label {
+  font-family: $sans-serif;
 }
 
 @supports not (text-decoration-skip-ink: auto) {
@@ -181,7 +189,7 @@ p ol {
 .subtitle {
   //@include fonts-loaded-KO29;
   @include antialiased;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: normal;
   //line-height: 1.467;
   letter-spacing: -.01em;
@@ -219,7 +227,7 @@ p ol {
 }
 
 .feature-list {
-  @include fonts-loaded-Roboto;
+  font-family: $sans-serif-narrow;
   color: -777;
   abbr[title] {
     text-decoration: inherit;
