@@ -16,10 +16,10 @@ assetDir = "static"
 #   url = "/#about"
 #   weight = 1
   
-# [[menu.main]]
-#   name = "Work"
-#   url = "/#work"
-#   weight = 2
+[[menu.main]]
+  name = "Work"
+  url = "/"
+  weight = 2
   
 # [[menu.main]]
 #   name = "Contact"
@@ -31,10 +31,10 @@ assetDir = "static"
   url = "https://articles.ethayer.design/"
   weight = 5
 
-[[menu.main]]
-  name = "Hire"
-  url = "/hire-me"
-  weight = 6
+# [[menu.main]]
+#   name = "Hire"
+#   url = "/hire-me"
+#   weight = 6
 
 [taxonomies]
   tag = "tags"

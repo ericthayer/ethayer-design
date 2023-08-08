@@ -1,9 +1,9 @@
 {{ partial "1_elements/head.html" . }}
 <!-- Header -->
 <header id="site-header" class="site-header {{ .Params.headerStyle }}" role="banner">      
-    {{ partial "2_components/menus/demo-menu.html" . }}
+    {{ partial "2_components/menus/main-menu.html" . }}
 </header>
-<main id="main" class="main-content main-content flex flex-grow-1 pt-3 pb-2" role="main">
+<main id="main" class="main-content main-content flex flex-grow-1 pt-3 pb-2 lg-pt-4" role="main">
   <div class="container-fluid flex flex-d-col jc-center pr-pl-0">
     <div class="demo container {{ .Params.projectType }}">
       {{ partial "2_components/media-item-live-url.html" . }}
