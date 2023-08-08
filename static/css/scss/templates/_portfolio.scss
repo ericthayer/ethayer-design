@@ -34,7 +34,7 @@
   }
 }
 
-@container (width > 1000px) {
+@media (min-width: 1000px) {
   .demo {
     flex-direction: row;
     gap: 4rem;
@@ -49,11 +49,11 @@
   }
 }
 
-@container (width > 1400px) {
+@media (min-width: 1400px) {
 
   .demo {
     align-items: center;
-    flex-direction: row-reverse;
+    // flex-direction: row-reverse;
     margin-bottom: 3rem;
   }
   
@@ -68,14 +68,14 @@
 }
 
 .details {
-  container: details / inline-size;
+  // container: details / inline-size;
 
   .wrap {
     display: flex;
     flex-direction: column;
   }
 
-  @container details (width > 700px) {
+  @media (min-width: 700px) and (max-width: 1000px) {
     .wrap {
       flex-direction: row;
       gap: 3rem;
