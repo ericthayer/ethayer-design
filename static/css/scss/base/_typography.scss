@@ -16,7 +16,7 @@
 //   font-weight: normal;
 // }
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 @font-face {
   font-family: "Knockout-29";
@@ -115,10 +115,6 @@ p {
     // background-size: 100%;
   }
 
-}
-
-.label {
-  font-family: $sans-serif;
 }
 
 @supports not (text-decoration-skip-ink: auto) {
@@ -254,6 +250,10 @@ p ol {
     @include focus-pink;
     @include focus-arrows;
   }
+}
+
+.label {
+  font-family: $sans-serif;
 }
 
 // @mixin random-text-1 {
