@@ -21,7 +21,7 @@ nav {
   text-shadow: none;
 
   .icon {
-    font-size: .875em;
+    font-size: .875rem;
   } //@include focus-arrows;
 
   &:before,
@@ -36,10 +36,10 @@ nav {
       transform: scale(1);
     }
     &:before {
-      //left: -.5em;
+      //left: -.5rem;
     }
     &:after {
-      //right: -.35em;
+      //right: -.35rem;
     }
   }
 }
@@ -60,7 +60,7 @@ nav {
     color: $link;
     @include flex;
     text-align: center;
-    // width: 2em;
+    // width: 2rem;
     &:hover,
     &:focus {
       color: hotpink;

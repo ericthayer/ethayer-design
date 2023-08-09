@@ -40,7 +40,7 @@
     margin-bottom: 0;
     text-align: center;
 
-    // @media (max-width: 20em) {
+    // @media (max-width: 20rem) {
     //   @include flex-wrap;
     // }
   }
@@ -82,7 +82,7 @@
   a {
     // color: #FFF;
     @include fonts-loaded-KO;
-    font-size: 1.125em;
+    font-size: 1.125rem;
 
     // .fonts-loaded & {
     //   font-size: 1.125rem;

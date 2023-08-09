@@ -3,7 +3,7 @@
 #process-steps {
   .iframe {
     iframe {
-      box-shadow: 0 0 2em 0 rgba(black, .35);
+      box-shadow: 0 0 2rem 0 rgba(black, .35);
       padding: 0;
     }
   }
@@ -11,26 +11,26 @@
 
 .process-steps {
   .media-item {
-    max-width: 6em;
+    max-width: 6rem;
   }
   text-align: center;
   // > 320
   @media (min-width: $break-240) {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -1em;
-    margin-left: -1em;
+    margin-right: -1rem;
+    margin-left: -1rem;
   }
   // > 900
   @media (min-width: $break-900) {
     .step {
-      padding: 2em 1.75em;
+      padding: 2rem 1.75rem;
     }
   }
 }
 
 .step {
-  @include counter-item;
-  min-width: 11em;
-  max-width: 13em;
+  // @include counter-item;
+  min-width: 11rem;
+  max-width: 13rem;
 }

@@ -265,7 +265,7 @@
 @mixin flex-layout {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5em;
+  gap: 1.5rem;
   justify-content: center;
 
   > * {
@@ -278,8 +278,8 @@
   }
   // > 640
   @media (min-width: $break-540) {
-    padding-right: 1.5em;
-    padding-left: 1.5em;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 
     > * {
       float: left;
@@ -287,10 +287,10 @@
       flex-grow: 1;
       min-height: 0;
       min-width: 0;
-      // padding-top: 1em;
-      // padding-right: 1em;
-      // padding-bottom: 1em;
-      // padding-left: 1em;
+      // padding-top: 1rem;
+      // padding-right: 1rem;
+      // padding-bottom: 1rem;
+      // padding-left: 1rem;
       &.flex-sm {
         flex-basis: auto;
       }
@@ -310,21 +310,21 @@
 // Media Layout
 @mixin l-media-grid {
   // < 300
-  @media (max-width: 18.75em) {
+  @media (max-width: 300px) {
     figcaption {
       @include sr-only;
     }
   }
   // < 480px
-  @media (max-width: 30em) {
+  @media (max-width: 480px) {
     > * {
       padding-bottom: 2.75rem;
     }
   }
   // > 640
-  @media (min-width: 40em) {
+  @media (min-width: 640px) {
     &.col-2 > * {
-      flex-basis: 24em;
+      flex-basis: 24rem;
     }
   }
 }
@@ -341,7 +341,7 @@
   @media (min-width: $break-900) {
     @include flex-layout-grid;
     > * {
-      flex-basis: 11em;
+      flex-basis: 11rem;
     }
   }
 }

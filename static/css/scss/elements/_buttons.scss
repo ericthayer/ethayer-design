@@ -2,9 +2,9 @@ button {
   border-radius: .35rem;
   border: none;
   line-height: normal;
-  padding-top: .5em;
+  padding-top: .5rem;
   @include pr-1;
-  padding-bottom: .45em;
+  padding-bottom: .45rem;
   @include pl-1;
 }
 
@@ -76,7 +76,7 @@ button {
   // 480
   @media (max-width: $break-480) {
     .tooltip {
-      min-width: 7em;
+      min-width: 7rem;
 
       &::before {
         //display: none;

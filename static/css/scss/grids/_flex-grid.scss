@@ -151,7 +151,7 @@
 .flex-layout {
   @include clearfix;
   > * {
-    padding-bottom: 10.5em;
+    padding-bottom: 10.5rem;
   }
   .media-item {
     margin-bottom: 0;
@@ -165,8 +165,8 @@
       float: left;
       //flex: 1 1 auto;
       flex-grow: 1;
-      padding-right: 2em;
-      padding-left: 2em;
+      padding-right: 2rem;
+      padding-left: 2rem;
       min-height: 0;
       min-width: 0;
       //width: 50%;
@@ -200,12 +200,12 @@
   // > 540
   @media (min-width: $break-640) {
     > * {
-      flex-basis: 18em;
+      flex-basis: 18rem;
       width: auto;
     }
   }
   // > 800
-  @media (min-width: 50em) {
+  @media (min-width: 800px) {
     > * {
       &.spotlight {
         flex-basis: 45vw;

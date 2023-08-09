@@ -2,8 +2,8 @@ a.anchor-top-page {
   //background-color: mix(black, $link, 25%);
   //color: #FFF;
   //display: none;
-  font-size: .7em;
-  letter-spacing: .04em;
+  font-size: .7rem;
+  letter-spacing: .04rem;
   margin-left: 1rem;
   //
   text-transform: uppercase;
@@ -20,6 +20,6 @@ a.anchor-top-page {
     margin-left: 0;
   }
   @media (min-width: $break-640) {
-    font-size: .6em;
+    font-size: .6rem;
   }
 }

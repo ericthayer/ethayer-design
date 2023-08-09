@@ -199,11 +199,11 @@ sup {
 }
 
 sup {
-  top: -0.5em;
+  top: -0.5rem;
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.25rem;
 }
 
 // Embedded content
@@ -232,7 +232,7 @@ svg:not(:root) {
 // Address margin not present in IE 8/9 and Safari.
 
 figure {
-  margin: 0 auto 1em; 
+  margin: 0 auto 1rem; 
 }
 
 // Address inconsistent styling of `hr`.
@@ -262,7 +262,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 1rem; /* 2 */
 }
 
 // Forms   
@@ -436,7 +436,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  padding: 0.35em 0.625em 0.75rem;
 }
 
 
@@ -492,7 +492,7 @@ dl,
 ol,
 ul {
 	margin-top: 0;	
-	padding-left: 2em;	
+	padding-left: 2rem;	
 }
 
 nav ul {

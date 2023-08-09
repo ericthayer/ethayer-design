@@ -99,13 +99,13 @@ figure:hover {
           opacity: 0;
         }
         50% {
-          font-size: 2em;
+          font-size: 2rem;
         }
         70% {
           opacity: 1;
         }
         100% {
-          font-size: 1.25em;
+          font-size: 1.25rem;
         }
       }
     }
@@ -118,17 +118,17 @@ figure:hover {
       animation-delay: .1s; // Keyframes
       @keyframes scale-down {
         0% {
-          font-size: 2em;
+          font-size: 2rem;
           opacity: 0;
         }
         50% {
-          font-size: .75em;
+          font-size: .75rem;
         }
         70% {
           opacity: 1;
         }
         100% {
-          font-size: 1.25em;
+          font-size: 1.25rem;
         }
       }
     }
@@ -155,11 +155,11 @@ figure:hover {
       // Keyframes
       @keyframes slide-up {
         0% {
-          margin-top: 1em;
+          margin-top: 1rem;
           opacity: 0;
         }
         50% {
-          margin-top: -2em;
+          margin-top: -2rem;
         }
         70% {
           opacity: 1;
@@ -178,11 +178,11 @@ figure:hover {
       animation-fill-mode: none; // Keyframes
       @keyframes slide-down {
         0% {
-          margin-top: -1em;
+          margin-top: -1rem;
           opacity: 0;
         }
         50% {
-          margin-bottom: -2em;
+          margin-bottom: -2rem;
         }
         70% {
           opacity: 1;
@@ -201,7 +201,7 @@ figure:hover {
       animation-fill-mode: none; // Keyframes
       @keyframes slide-left {
         0% {
-          margin-left: -7em;
+          margin-left: -7rem;
           opacity: 0;
         }
         70% {
@@ -219,7 +219,7 @@ figure:hover {
       animation-fill-mode: none; // Keyframes
       @keyframes slide-right {
         0% {
-          margin-right: -7em;
+          margin-right: -7rem;
           opacity: 0;
         }
         70% {

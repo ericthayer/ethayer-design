@@ -48,8 +48,8 @@
       background-image: none;
       background-color: rgba(black, .25);
       line-height: 2.5rem;
-      padding-right: .25em;
-      padding-left: .25em;
+      padding-right: .25rem;
+      padding-left: .25rem;
       text-decoration: none;
       text-shadow: none;
     }
@@ -61,18 +61,18 @@
   @media (min-width: $break-540) {
     .fonts-loaded & {
       h1 {
-        font-size: calc(1vw + 3.875em);
+        font-size: calc(1vw + 3.875rem);
       }
     }
   }
 
-  @media (min-width: 44em) {
+  @media (min-width: 800px) {
     h1 {
       // max-width: calc(1vw + 10em);
     }
     .fonts-loaded & {
       h1 {
-        font-size: calc(1vw + 4.25em);
+        font-size: calc(1vw + 4.25rem);
         // max-width: calc(1vw + 7em);
       }
     }

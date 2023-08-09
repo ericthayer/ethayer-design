@@ -31,43 +31,43 @@
 //** FONT SIZE (em) **//
 
 @mixin text-tiny {
-  font-size: .7em;
+  font-size: .7rem;
 }
 
 @mixin text-sm {
-  font-size: .875em;
+  font-size: .875rem;
 }
 
 @mixin text-base {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 @mixin text-md {
-  font-size: 1.35em;
+  font-size: 1.35rem;
 }
 
 @mixin text-lg {
-  font-size: 1.875em;
+  font-size: 1.875rem;
 }
 
 @mixin text-xl {
-  font-size: 2.25em;
+  font-size: 2.25rem;
 }
 
 @mixin text-xxl {
-  font-size: 2.75em;
+  font-size: 2.75rem;
 }
 
 @mixin display-sm {
-  font-size: calc(1vw + 3.875em);
+  font-size: calc(1vw + 3.875rem);
 }
 
 @mixin display-md {
-  font-size: calc(1vw + 5em);
+  font-size: calc(1vw + 5rem);
 }
 
 @mixin display-lg {
-  font-size: calc(1vw + 7.75em);
+  font-size: calc(1vw + 7.75rem);
 }
 
 //** FONT SIZE (rem) **//
@@ -109,7 +109,7 @@
 }
 
 @mixin display-lg-r {
-  font-size: calc(1vw + 7.75em);
+  font-size: calc(1vw + 7.75rem);
 }
 
 //** FONT STYLES **//

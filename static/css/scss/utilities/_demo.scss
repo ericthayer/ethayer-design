@@ -5,15 +5,15 @@
 
 .demo-wrap {
 	background: white;
-	//border: 0.313em solid #C9C9C9;		
+	//border: 0.313rem solid #C9C9C9;		
 	margin: 0 auto;	
-	//padding-bottom: 4em;
+	//padding-bottom: 4rem;
 	position: relative;
 	transition: all 500ms ease;
 /*
 	& > *:nth-child(2) {
-  	margin-right: -1em;
-  	margin-left: -1em;  
+  	margin-right: -1rem;
+  	margin-left: -1rem;  
 	}	
 */	
 }
@@ -26,31 +26,31 @@
 	//border-bottom: 1px solid white;
 	//box-shadow: 0 0 0 2px #EEE;
   text-align: center;
-  //margin-bottom: 4em;
-  padding: 0.75em 0 1em;
+  //margin-bottom: 4rem;
+  padding: 0.75rem 0 1rem;
 }
 
 .demo-title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #FFFFFF;
 	font-family: $OpenSans;
 	text-shadow: none;
-  margin-bottom: 0.313em;
+  margin-bottom: 0.313rem;
   a {
 	  color: #FFFFFF;
   }
   // 667
   @media (min-width: $break-640) {
-	  //font-size: 1.7em;	
+	  //font-size: 1.7rem;	
   }
 }
 
 .demo-subheader {
 	color: #444;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	font-family: $Montserrat;	
-	margin-top: 0.75em;	
-	margin-bottom: 0.5em;
+	margin-top: 0.75rem;	
+	margin-bottom: 0.5rem;
   text-transform: uppercase;
 	text-align: center;
 	// 568
@@ -59,7 +59,7 @@
 	}	
 	// 768
 	@media (min-width: $break-768) {
-		font-size: 1.8em;
+		font-size: 1.8rem;
 	}	
 }
 
@@ -78,9 +78,9 @@
 	background: #E9E9E9;
 	color: #667;
 	display: inline-block;	
-	font: 1em $Montserrat;
-	margin-bottom: 0.5em;
-	padding: 0.313em 0.625em;	
+	font: 1rem $Montserrat;
+	margin-bottom: 0.5rem;
+	padding: 0.313rem 0.625rem;	
 	text-transform: uppercase;
 	width: auto;		
 }
@@ -88,33 +88,33 @@
 .code-toggle-btn {
 	background: white;
 	box-shadow: 0 0 0 1px #DDD;
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   color: #555;
-  font-size: 0.6em;
+  font-size: 0.6rem;
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
   max-width: 86px;
   margin: 0 auto;	
-  padding: 0.438em 0.7em;
+  padding: 0.438rem 0.7rem;
   position: relative;
   width: 100%;
   z-index: 1;			
   span[class*="icon-"] {
-	  border-radius: 0 0.25em 0.25em 0;
-	  font-size: 1em;
+	  border-radius: 0 0.25rem 0.25rem 0;
+	  font-size: 1rem;
 	  position: absolute;
 	  right: 0;
 	  top: 0;
 	  background-color: #CCC;
-	  padding-top: 0.45em;
-	  padding-left: 0.1em;
+	  padding-top: 0.45rem;
+	  padding-left: 0.1rem;
 	  height: 100%;	
   }
   .icon-carret-up {
 	  background: #AAA;
 	  color: #333;
-	  padding-top: 0.35em;	
+	  padding-top: 0.35rem;	
 	  text-shadow: 0 -1px 0 rgba(white, 0.25);
   }
   // 480
@@ -123,14 +123,14 @@
   }
   // 667
   @media (min-width: $break-640) {
-	  padding: 0.438em 2.2em 0.438em 0.7em;
+	  padding: 0.438rem 2.2rem 0.438rem 0.7rem;
   }  
 }
 
 .code-demo {
 	display: inline-block;	
 	margin: 0 auto;
-	padding: 0 0.5em;			
+	padding: 0 0.5rem;			
 	width: 100%;
 	position: absolute;
 	top: -100px;
@@ -194,13 +194,13 @@
 	// For Font Icons
 	.demo-icons {
   	.demo-subheader {
-    	margin-top: 2em; 
+    	margin-top: 2rem; 
   	}
   	.demo-label-sm {
 			//background: none;
 			border: none;
 			display: block;
-			margin: 0 auto 0.65em;
+			margin: 0 auto 0.65rem;
 			text-shadow: none;
 			width: 100%;
 			// 568
@@ -211,16 +211,16 @@
 		.icon-wrap {
 			background: #F5F5F5;
 			border: 1px solid rgba(black, 0.08);
-			box-shadow: 0.25em 0.25em 0 rgba(black, 0.15);
+			box-shadow: 0.25rem 0.25rem 0 rgba(black, 0.15);
 			display: inline-block;
-			margin-bottom: 0.75em;		
-			padding: 1em 0.625em;
+			margin-bottom: 0.75rem;		
+			padding: 1rem 0.625rem;
 			text-align: center; 
 			width: 100%;	
 			[class^="icon-"]:before, 
 			[class*=" icon-"]:before {
   			color: $blue-med;
-				font-size: 2em;	
+				font-size: 2rem;	
 			}			 
 			i {
   			display: inline-block;
@@ -228,14 +228,14 @@
     			style: normal;
           weight: bold;
         }
-        letter-spacing: -0.03em;   
-  			padding: 1em 0; 
+        letter-spacing: -0.03rem;   
+  			padding: 1rem 0; 
   			text-align: center;
   			width: 100%;  			    			    
   			span {
     			color: #888;
           display: block;
-          font-size: 0.85em;
+          font-size: 0.85rem;
           word-break: break-word;
           transition: all 400ms ease;
           -webkit-font-smoothing: antialiased;  
@@ -249,7 +249,7 @@
 			}
 			[class^="icon-"]:before, 
 			[class*=" icon-"]:before { 
-				margin: 0 auto 0.15em;	
+				margin: 0 auto 0.15rem;	
 			}
 			// 480
 			@media (min-width: $break-480) {
@@ -263,7 +263,7 @@
 			// 768
 			@media (min-width: $break-768) {
 				i {
-  				padding: 1.25em 0.75em;
+  				padding: 1.25rem 0.75rem;
   				width: 25%; 
 				}
 			}
@@ -271,14 +271,14 @@
 			@media (min-width: $break-900) {
   			justify-content: center;
   			i {
-    			padding: 1.25em 0.75em;  
+    			padding: 1.25rem 0.75rem;  
     			width: 16%; 
   			}
 			}
 			// 1200
 			@media (min-width: $break-1200) {
 				i {
-  				padding: 2em;
+  				padding: 2rem;
   				width: auto; 
 				}
 			}
@@ -290,15 +290,15 @@
 	.md-size,
 	.sm-size {
 		float: none;
-		margin-top: 1em;		
+		margin-top: 1rem;		
 	}
 	// 600
 	@media (min-width: 600px) {
 		.demo-icons {
 /*
 			.icon-wrap {
-				margin-right: 0.25em;
-				margin-left: 0.25em;				
+				margin-right: 0.25rem;
+				margin-left: 0.25rem;				
 				width: auto;
 			}
 */
@@ -314,13 +314,13 @@
 				//width: auto;
 				[class^="icon-"]:before, 
 				[class*=" icon-"]:before {
-					font-size: 2.125em;
+					font-size: 2.125rem;
 				}
 			}
 		}
 		.blog-posts {
-			padding-right: 2.5em;
-			padding-left: 2.5em;
+			padding-right: 2.5rem;
+			padding-left: 2.5rem;
 			&.post-grid {
 				padding-right: 0;
 				padding-left: 0;		

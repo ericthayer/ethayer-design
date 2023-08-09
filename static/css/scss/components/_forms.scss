@@ -26,16 +26,16 @@ input[type="text"],
 input[type="number"],
 input[type="search"],
 input[type="password"],
-input[type="email"],
+input[type="remail"],
 input[type="tel"] {
-  //margin-bottom: 0.5em;
+  //margin-bottom: 0.5rem;
 }
 
 input[type="text"],
 input[type="number"],
 input[type="search"],
 input[type="password"],
-input[type="email"],
+input[type="remail"],
 input[type="tel"],
 textarea {
   border: 0.125rem solid #ddd;
@@ -45,7 +45,7 @@ textarea {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.2;
-  padding: 0.75em 0.5em;
+  padding: 0.75rem 0.5rem;
   width: 100%;
   &:focus,
   &:active {
@@ -109,7 +109,7 @@ label {
 
 .form-group-submit {
   [class^="btn-"] {
-    max-width: 15em;
+    max-width: 15rem;
   }
 }
 
@@ -119,12 +119,12 @@ label {
   border: 1px solid rgba(#801414, 0.4);
   color: #801414;
   font: {
-    size: 0.875em;
+    size: 0.875rem;
     weight: bold;
   }
-  letter-spacing: -0.01em;
-  margin: 0 auto 1em;
-  padding: 0.5em 1em;
+  letter-spacing: -0.01rem;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 1rem;
   text-shadow: none;
   width: 100%;
 }

@@ -241,14 +241,14 @@
   // 480
   @media (min-width: $break-375) {
     > * {
-      margin-bottom: 2em;
+      margin-bottom: 2rem;
       flex-basis: 50%;
     }
   }
   // // 640
   // @media (min-width: $break-640) {
   //   > * {
-  //     //padding: .3em;
+  //     //padding: .3rem;
   //     flex-basis: 33%;
   //   }
   // }
@@ -258,7 +258,7 @@
   // 540
   @media (min-width: $break-540) {
     > * {
-      padding: .3em;
+      padding: .3rem;
       flex-basis: 25%;
     }
   }

@@ -52,7 +52,7 @@ figure.lazyload {
   opacity: .8;
   @include corner-ribbon;
   background: rgba(darkred, 1);
-  font-size: .75em;
+  font-size: .75rem;
   font-family: $sans-serif;
   line-height: 2;
   position: fixed;  
@@ -62,13 +62,13 @@ figure.lazyload {
     fill: #FFFFFF;
     height: 45px; 
     right: -1px;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     position: relative;
     top: 6px;
   }
   span {
     display: block;
-    font-size: .8em;
+    font-size: .8rem;
     opacity: 0;
     transition: .3s ease;   
   }
@@ -90,7 +90,7 @@ figure.lazyload {
       height: 200px;      
       bottom: -50px;
       right: -140px;
-      padding-right: 4em;
+      padding-right: 4rem;
       svg {
       } 
       span {
@@ -109,9 +109,9 @@ figure.lazyload {
 // .wip-disclaimer {
 //   //background: linear-gradient(135deg, rgba(#639, .85) 0%, mix(black, #639, 50%) 100%);
 //   background-color: rgba(black,.85);
-//   font-size: .9rem;
+//   font-size: .9rem;;
 //   font-family: $sans-serif;
-//   letter-spacing: .03em;
+//   letter-spacing: .03rem;
 //   position: relative;
 //   top: 0;
 //   left: 0;
@@ -125,9 +125,9 @@ figure.lazyload {
 //     background-color: mix(black, #639, 60%);
 //     background-color: black;
 //     overflow: hidden;
-//     font-size: 1.4rem;
+//     font-size: 1.4rem;;
 //     margin-left: auto;
-//     padding: 1em 1.35em;
+//     padding: 1em 1.35rem;
 //     .icon {
 //       margin: 0;
 //       transform: rotate(45deg);
@@ -138,8 +138,8 @@ figure.lazyload {
 //     //display: none;
 //     .headroom & {
 //       position: absolute;
-//       //height: 4rem;
-//       top: 4rem;
+//       //height: 4rem;;
+//       top: 4rem;;
 //     }
 //   }
 //   // 1200
@@ -160,7 +160,7 @@ figure.lazyload {
 //   color: #FFF;
 //   margin-right: auto; 
 //   margin-left: auto;  
-//   padding: .5rem .875rem;
+//   padding: .5rem .875rem;;
 //   //position: relative;
 //   //bottom: 0;
 //   //right: 50%;
@@ -173,13 +173,13 @@ figure.lazyload {
 
 // [data-scroll-activate] .top-anchor {
 //   opacity: 0;
-//   bottom: 1rem; 
+//   bottom: 1rem;; 
 //   transition: bottom .3s ease-in, opacity .3s;
 // }
 
 // .inviewport .top-anchor {
 //   opacity: 1;
-//   bottom: 2rem; 
+//   bottom: 2rem;; 
 //   transition: bottom .3s ease-out, opacity .3s;
 // }
 
@@ -193,7 +193,7 @@ figure.lazyload {
     //   margin-bottom: 0;
     // }
     .main-content {
-      padding-top: 5rem;
+      padding-top: 5rem;;
     }  
     .main-menu {
       //background: transparent;
@@ -242,7 +242,7 @@ figure.lazyload {
   @include ai-center;
   justify-content: center;
   @include fonts-loaded-KO;
-  font-size: 2.5rem;
+  font-size: 2.5rem;;
   line-height: 1;
   max-height: 0;
   outline: none;
@@ -261,7 +261,7 @@ a.skip-link:focus {
   box-shadow: none;
   color: #FFF;
   max-height: 100px;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   //transition: .3s ease;
 }

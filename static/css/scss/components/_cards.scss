@@ -1,18 +1,18 @@
 // Card styles
 
 .card {
-  padding: 1em 1.75em;
+  padding: 1rem 1.75rem;
   position: relative;
   text-align: center;  
   &:first-child {
     .media-item {
-      max-width: 5em;
+      max-width: 5rem;
     }
   }
   .media-item {
     margin-right: auto;
     margin-left: auto;
-    max-width: 8em;
+    max-width: 8rem;
   }
   .title {
     margin-bottom: .25rem;

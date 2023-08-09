@@ -46,17 +46,17 @@
   .container {
     padding-right: calc(1vw + 2em);
     padding-left: calc(1vw + 2em);
-    @include mw-48em;
+    @include mw-48rem;
   }
 
   .h1, h1 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
     //font-size: 4vmax;
     @include mb-sm;
   }
 
   p {
-    @include mw-40em;
+    @include mw-40rem;
     @include mr-ml-a;
     @include mb-2;
     @include text-sm;
@@ -72,12 +72,12 @@
 
   @media (max-height: $break-640) {
     @include h-auto;
-    padding-top: 7.5em;
+    padding-top: 7.5rem;
     @include pb-5;
   }
 
   // > 800px
-  @media (min-width: 50em) and (min-height: 30em) {
+  @media (min-width: 800px) and (min-height: 320px) {
     @include h-100vh;
   }
 

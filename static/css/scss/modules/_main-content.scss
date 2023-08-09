@@ -19,8 +19,8 @@
 // Page Sidebar
 %page-sidebar {
 	background-color: #EEE;
-	border-radius: 0.625em;	
-	padding: 0 0.75em 1em;	
+	border-radius: 0.625rem;	
+	padding: 0 0.75rem 1rem;	
 	&:empty {
 		display: none;	
 	}
@@ -29,7 +29,7 @@
 // Two Col
 %two-col {
 	.page-content {
-		padding-bottom: 2em;
+		padding-bottom: 2rem;
 	}
 	// 800
 	@media (min-width: 800px) {
@@ -37,12 +37,12 @@
 			display: flex;
 		}
 		.page-content {
-			padding-right: 2em;
+			padding-right: 2rem;
 			padding-bottom: 0;
 			width: 64%;				
 		}
 		.page-sidebar {
-			padding: 1em;	
+			padding: 1rem;	
 			width: 35%;	
 		}	
 	}

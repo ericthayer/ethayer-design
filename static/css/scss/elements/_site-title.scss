@@ -4,10 +4,10 @@
   // flex-grow: 1;
   min-width: 0;
   min-height: 0;
-  padding-top: 1.5em;
-  padding-right: 1.5em; 
+  padding-top: 1.5rem;
+  padding-right: 1.5rem; 
   padding-bottom: 0;
-  padding-left: 1.5em;
+  padding-left: 1.5rem;
   transition: background-color .4s ease;
   &:hover,
   &:focus {
@@ -18,9 +18,9 @@
 
   @media (min-width: 300px) {
     flex-grow: 0;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    width: 14em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 14rem;
   }
 }
 
@@ -31,7 +31,7 @@
   display: block; 
   margin-right: auto;
   margin-left: auto;
-  max-height: 3.125em;
+  max-height: 3.125rem;
   //min-height: 2em;  
   max-width: 10rem;      
   width: 100%;
@@ -41,7 +41,7 @@
   //display: none; 
   fill: currentColor;  
   // > 240 ~ < 540
-  @media (min-width: $break-240) and (max-width: $break-540 - .01em) {
+  @media (min-width: $break-240) and (max-width: $break-540 - .01px) {
     //display: none;  
   } 
   @media (min-width: $break-540) {
@@ -65,7 +65,7 @@
 .main-logo {
   display: block;
   // > 240 ~ < 667
-  @media (min-width: $break-240) and (max-width: $break-640 - .01em) {
+  @media (min-width: $break-240) and (max-width: $break-640 - .01px) {
     //display: block;  
   }
   @media (min-width: $break-640) {

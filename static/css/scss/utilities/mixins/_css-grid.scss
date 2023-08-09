@@ -12,11 +12,11 @@
   > * {
     @include flex-grow-1;
     @include p-1;
-    flex-basis: 15em;
+    flex-basis: 15rem;
   }
   @supports (grid-gap: 0) {
     display: grid;
-    grid-gap: 4em;
+    grid-gap: 4rem;
 
     > * {
       @include m-0;
@@ -36,7 +36,7 @@
   @supports (grid-gap: 0) {
 
     @media (min-width: $break-640) {
-      grid-gap: 2em 3em;
+      grid-gap: 2rem 3rem;
       grid-template-columns: repeat(2, 1fr);
     }
   }
@@ -46,12 +46,12 @@
   @include grid-2-col;
 
   @media (min-width: $break-640) {
-    grid-gap: 5em 0;
+    grid-gap: 5rem 0;
     grid-template-columns: 1fr;
   }
 
   @media (min-width: $break-768) {
-    grid-gap: 0 5em;
+    grid-gap: 0 5rem;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -61,7 +61,7 @@
 
   @supports (grid-gap: 0) {
     grid-template-columns: repeat(auto-fit, minmax(16.5em, 1fr));
-    grid-gap: 2em;
+    grid-gap: 2rem;
     // 2 cols @ 900 ~ 1360
     @media (min-width: 60em) and (max-width: 85em) {
       grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
@@ -113,13 +113,13 @@
     // grid-row: 4 / 4;
   }
 
-  @media (min-width: 46em) {
+  @media (min-width: 720px) {
     grid-template-columns: 2fr 1fr;
     //grid-template-rows: auto 1fr auto;
 
     .info-block-about {
       p {
-        font-size: 1.25em;
+        font-size: 1.25rem;
         max-width: 80ch;
       }
     }

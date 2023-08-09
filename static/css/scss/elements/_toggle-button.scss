@@ -6,9 +6,9 @@
     border-radius: 0;
     display: flex;
     align-items: center;
-    letter-spacing: .1em;
+    letter-spacing: .1rem;
     margin-left: auto;
-    padding: 1em;
+    padding: 1rem;
     text-transform: uppercase;
     &:hover,
     &:focus {
@@ -19,7 +19,7 @@
     font-size: 1.125rem;
     margin-right: 0.2rem;
     position: relative;
-    top: -.125em;
+    top: -.125rem;
     -webkit-font-smoothing: antialiased;
   }
 }
