@@ -1,11 +1,12 @@
 .media-wrap {
   @include fade-in;
-  line-height: 0;
   height: 0;
+  line-height: 0;
+  padding-bottom: 56.25%; // 16:9
   margin: 0;
   position: relative;
   // padding-bottom: 70% !important; // 4:3
-  padding-bottom: 56.25%; // 16:9
+  overscroll-behavior-y: contain;
   transition: box-shadow .4s ease;
   width: 100%;
   z-index: 1;
