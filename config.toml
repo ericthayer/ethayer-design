@@ -7,7 +7,7 @@ assetDir = "static"
 
 [params]
   author = "Eric Thayer"
-  description = "I'm a freelance consultant with a passion for building design systems and inclusive components with other like-minded people."
+  description = "I'm a UI/UX designer and developer with a passion for building design systems and inclusive components with other like-minded people."
   versionTag = "5.4.9"
   repoURL = "https://github.com/ericthayer/ethayer-design"
 
@@ -32,7 +32,7 @@ assetDir = "static"
 #   weight = 5
 
 [[menu.main]]
-  name = "Hire"
+  name = "Hire Me"
   url = "/hire-me"
   weight = 6
 
