@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Knockout-29";
   src: url("fonts/Knockout-HTF29-JuniorLiteweight-subset.woff2") format("woff2"),
-       url("fonts/Knockout-HTF29-JuniorLiteweight-subset.woff") format("woff");
+    url("fonts/Knockout-HTF29-JuniorLiteweight-subset.woff") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: normal;
@@ -28,13 +28,13 @@
 @font-face {
   font-family: "Roboto Condensed";
   src: url("fonts/RobotoCondensed-Regular-subset.woff2") format("woff2"),
-       url("fonts/RobotoCondensed-Regular-subset.woff") format("woff");
+    url("fonts/RobotoCondensed-Regular-subset.woff") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: normal;
 }
 
-.KO29 {
+.KO29 { 
   @include fonts-loaded-KO;
 }
 
@@ -47,10 +47,13 @@
 }
 
 :root {
-  font-size: calc( 1rem + (20 - 14) * ( (100vw - 400px) / ( 2000 - 400))); // < 240
+  font-size: calc(1rem + (20 - 14) * ((100vw - 400px) / (2000 - 400))); // < 240
+
   @media (max-width: 15em) {
     //font-size: 14px;
-  } // > 1200
+  }
+
+  // > 1200
   @media (min-width: $break-1200) {
     //font-size: 16px;
   }
@@ -59,7 +62,7 @@
 body {
   color: #333;
   line-height: 1.47564;
-  font-family: $sans-serif-narrow;
+  font-family: $sans-serif;
   font-size-adjust: none;
   text-rendering: optimizeLegibility;
 }
@@ -74,12 +77,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1,.h1,
-h2,.h2,
-h3,.h3,
-h4,.h4,
-h5,.h5,
-h6,.h6 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   @include headline;
 }
 
@@ -95,9 +104,10 @@ p {
   -moz-osx-font-smoothing: greyscale;
   -webkit-font-smoothing: antialiased;
   color: #444;
-  font-size: 1.2em;
-  @include fonts-loaded-Roboto;
-  line-height: 1.576;
+  font-size: clamp(1em, 1.125em, 1.25em);
+  // @include fonts-loaded-Roboto;
+  letter-spacing: -0.03em;
+  line-height: 1.385;
   max-width: 72ch;
 
   a {
@@ -152,26 +162,33 @@ p ol {
 
 // > 180
 @media (min-width: 11.25em) {
-  h1, .h1 {
+
+  h1,
+  .h1 {
     font-size: 3.5em;
   }
+
   h2,
   .h2 {
     font-size: 2.75em;
   }
+
   h3,
   .h3 {
     font-size: 2.125em;
   }
+
   h4,
   .h4 {
     font-size: 1.875em;
   }
+
   h5,
   .h5,
   .small-header {
     font-size: 1.65em;
   }
+
   h6,
   .h6 {
     font-size: 1.25em;
@@ -181,17 +198,19 @@ p ol {
 .subtitle {
   //@include fonts-loaded-KO29;
   @include antialiased;
-  font-size: 1.25rem;
   font-weight: normal;
   //line-height: 1.467;
   letter-spacing: -.01em;
+
   .align-center & {
     margin-right: auto;
     margin-left: auto;
   }
+
   a {
     white-space: pre;
   }
+
   // .fonts-loaded & {
   //   //font-size: 1.65rem;
   // }
@@ -199,7 +218,9 @@ p ol {
   @media (min-width: $break-540) {
     margin-bottom: 2em;
     //max-width: 38em;
-  } // > 1200
+  }
+
+  // > 1200
   @media (min-width: $break-1200) {
     //max-width: 100%;
   }
@@ -220,28 +241,35 @@ p ol {
 
 .feature-list {
   @include fonts-loaded-Roboto;
-  color: -777;
+  color: #777;
+
   abbr[title] {
     text-decoration: inherit;
   }
+
   a {
     color: $link;
   }
+
   .fonts-loaded & {
     font-size: 1.25rem;
   }
+
   line-height: 1.4;
   @include mb-0;
   @include pl-0;
+
   li {
     @include mb-tiny;
   }
+
   &-inline {
     li {
       display: inline-block;
       padding-right: .5rem;
     }
   }
+
   a {
     @include focus-pink;
     @include focus-arrows;

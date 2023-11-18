@@ -415,7 +415,7 @@
     position: absolute;
     transition: opacity 0.4s ease;
     top: 0;
-    line-height: 0.9;
+    line-height: 0.75;
     height: 100%;
   }
   &:before {
@@ -484,7 +484,7 @@
 }
 
 @mixin fonts-loaded-Roboto {
-  font-family: $sans-serif-narrow;
+  font-family: $sans-serif;
 
   .fonts-loaded & {
     font-family: $Roboto;
