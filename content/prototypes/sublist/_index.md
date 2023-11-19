@@ -27,7 +27,7 @@ bannerStyle = "pt-pb-4"
   <!-- Section Title -->
   <div class="container align-center">
     <h2 id="design-process">Design Workflow</h2>
-    <p class="sub-header mb-2 mw-35em md-pr-pl-2">Most of the time my creative workflow consists of the following steps but it all depends on the project's goals. I love all stages of the design process and really enjoy pre-production and concept development.</p>
+    <p class="sub-header mb-2 mw-35em mr-a ml-a md-pr-pl-2">Most of the time my creative workflow consists of the following steps but it all depends on the project's goals. I love all stages of the design process and really enjoy pre-production and concept development.</p>
     <!-- Concordus -->
     <figure class="media-item">
       <a class="media-wrap img" href="#0">
@@ -50,7 +50,7 @@ bannerStyle = "pt-pb-4"
       </noscript>
       <div class="media-details pt-2 pb-2 pr-pl-tiny">
         <h3 class="mb-sm">SubList Mobile App</h3>
-        <p class="mb-2">This is where the details would go. I could put anything I want here and should add to the experience of my site.</p>
+        <p class="mr-a ml-a mb-2 mw-35em">This is where the details would go. I could put anything I want here and should add to the experience of my site.</p>
         <a href="#0">See Details</a>
       </div>
     </figure>
