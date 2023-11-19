@@ -40,10 +40,7 @@
   }
 
   .subtitle {
-    line-height: 2.125rem;
-    // &.header-lg {
-    //   line-height: 2.5rem;
-    // }
+
     a {
       background-image: none;
       background-color: rgba(black, .25);
@@ -53,9 +50,6 @@
       text-decoration: none;
       text-shadow: none;
     }
-    // .full-screen & {
-    //   max-width: 32em;
-    // }
   }
 
   @media (min-width: $break-540) {
@@ -67,13 +61,10 @@
   }
 
   @media (min-width: 44em) {
-    h1 {
-      // max-width: calc(1vw + 10em);
-    }
+
     .fonts-loaded & {
       h1 {
         font-size: calc(1vw + 4.25em);
-        // max-width: calc(1vw + 7em);
       }
     }
   }

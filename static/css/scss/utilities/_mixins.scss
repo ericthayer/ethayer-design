@@ -590,15 +590,11 @@
 
   .main-menu {
     flex-basis: auto;
-    grid-column: 1/1;
-    grid-row: 1/1;
   }
   
   .banner {
     display: flex;
     flex-direction: column;
-    grid-column: 1/1;
-    grid-row: 1/3;
     // flex-grow: 1;
     padding-top: 0;
     padding-bottom: 0;
