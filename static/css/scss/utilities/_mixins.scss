@@ -582,27 +582,35 @@
 }
 
 @mixin full-screen {
+  display: grid;
+  grid-template-rows: auto 1fr;
   background-size: cover;
   flex-direction: column;
-  height: 85vh;
+  height: 90svh;
 
   .main-menu {
     flex-basis: auto;
+    grid-column: 1/1;
+    grid-row: 1/1;
   }
-
+  
   .banner {
     display: flex;
     flex-direction: column;
+    grid-column: 1/1;
+    grid-row: 1/3;
     // flex-grow: 1;
     padding-top: 0;
     padding-bottom: 0;
+    text-align: center;
   }
+
   @media (min-height: 42em) and (min-width: 40em) {
     //min-height: 100vh;
   }
 }
 
-.full-screen {
+.full-screen.full-screen{
   @include full-screen;
 }
 
