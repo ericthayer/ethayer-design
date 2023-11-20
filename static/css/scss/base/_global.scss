@@ -71,7 +71,7 @@ body {
 }
 
 .container {
-  max-width: 80em;
+  max-width: 80rem;
 }
 
 .container-flex {
@@ -89,7 +89,7 @@ body {
     //padding-left: 0;
   }
   // 1400
-  @media (min-width: 87.5em) {
+  @media (min-width: 87.5rem) {
     max-width: 95%;
   }
 }
