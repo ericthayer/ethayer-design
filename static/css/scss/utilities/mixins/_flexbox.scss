@@ -305,17 +305,17 @@
     // grid-template-columns: repeat(6, 1fr);
 
     > * {
-      flex-basis: 25svw;
+      flex-basis: 18svw;
 
       &.spotlight {
         flex-basis: 45%;
       }
 
-      &:nth-child(7),
-      &:nth-child(8),
-      &:nth-child(9) {
-        flex-basis: 34svw;
-      }
+      // &:nth-child(7),
+      // &:nth-child(8),
+      // &:nth-child(9) {
+      //   flex-basis: 34svw;
+      // }
     }
   }
   // @media (min-width: 1500px) {
