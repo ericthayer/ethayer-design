@@ -283,7 +283,7 @@
 
     > * {
       float: left;
-      flex-basis: 17rem;
+      flex-basis: 14rem;
       flex-grow: 1;
       min-height: 0;
       min-width: 0;
@@ -294,17 +294,36 @@
       &.flex-sm {
         flex-basis: auto;
       }
+  
+      &:first-child {
+        flex-basis: auto;
+      }
     }
   }
-  @media (min-width: 1050px) {
+  @media (min-width: 1200px) {
+    // display: grid;
+    // grid-template-columns: repeat(6, 1fr);
+
     > * {
-      // flex-basis: 15rem;
+      flex-basis: 25svw;
 
       &.spotlight {
         flex-basis: 45%;
       }
+
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9) {
+        flex-basis: 34svw;
+      }
     }
   }
+  // @media (min-width: 1500px) {
+  //   > *:not(.spotlight) {
+  //     flex-basis: 17rem;
+  //     max-width: 35svw;
+  //   }
+  // }
 }
 
 // Media Layout

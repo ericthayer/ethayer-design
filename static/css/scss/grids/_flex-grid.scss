@@ -163,17 +163,17 @@
     justify-content: center;
     > * {
       float: left;
-      //flex: 1 1 auto;
+      flex: 1 1 auto;
       flex-grow: 1;
       padding-right: 2em;
       padding-left: 2em;
       min-height: 0;
       min-width: 0;
-      //width: 50%;
+      width: 50%;
     }
   }
-  // > 667
-  @media (min-width: $break-640) {
+  // < 667
+  @media (max-width: $break-640) {
     .flex-lead {
       flex-basis: 100%;
     }
@@ -192,9 +192,8 @@
     }
   } // > 480
   @media (min-width: $break-480) {
-      .spotlight {
-        flex-basis: 100vw;
-      }
+    .spotlight {
+      flex-basis: 100vw;
     }
   }
   // > 540
@@ -234,8 +233,6 @@
   min-width: 0;
   min-height: 0;
 }
-
-
 
 .flex-grow-1 {
   flex-grow: 1;
