@@ -5,6 +5,7 @@
     <link>/dmns/</link>
     <description>Recent content in Denver Museum of Nature and Science on Eric Thayer is a Web Designer and Front-end Developer from Denver Colorado</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/dmns/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="/dmns/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
